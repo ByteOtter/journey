@@ -1,0 +1,4 @@
+baseURL = 'https://byteotter.gay/'
+languageCode = 'en-us'
+title = 'ByteOtter'
+theme = 'ananke'
