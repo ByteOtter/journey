@@ -10,7 +10,7 @@ My journey starts, how a lot of these stories begin, with me finishing school. T
 Oh boy, was that a bad idea.
 
 To sum it up, I failed. Horribly. Mainly because I lacked the mathematical background to understand what the math courses were even about.<br>
-So, after the second semester, I did what any reasonable guy my age would do: Take the next best course: Humand Computer Interaction.
+So, after the second semester, I did what any reasonable guy my age would do: Take the next best course: Human Computer Interaction.
 
 This time I was better off. I was able to reapply what I learned about programming from the CS course and actually made progress. However, around the second or third semester I realised that this was not going to make me happy. The entire course was build around the idea that we...
 
