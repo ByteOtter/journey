@@ -5,7 +5,7 @@ draft: false
 ---
 ## How I got here
 
-My journey starts, how a lot of these stories begin, with me finishing school. There I was, 18 years old and no real plan for my future. The first few weeks after I got my diploma I just sat in my room schrolling through uni pages wondering what I would do with my life. I was not really got at math and did not see the point of studying anything like art, english or history, which I was really good in. What I did have though was an interest in Technology. So, I did what any reasonable guy my age would do, follow the advice of my best friends and just sign up for the computer science bachelor course at my local uni.
+My journey starts, how a lot of these stories begin, with me finishing school. There I was, 18 years old and no real plan for my future. The first few weeks after I got my diploma I just sat in my room schrolling through uni pages wondering what I would do with my life. I was not really good at math and did not see the point of studying anything like art, english or history, which I was really good at. What I did have though was an interest in technology. So, I did what any reasonable guy my age would do, follow the advice of my best friends and just sign up for the computer science bachelor course at my local uni.
 
 Oh boy, was that a bad idea.
 
