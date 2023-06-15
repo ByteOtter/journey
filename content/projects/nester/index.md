@@ -80,9 +80,9 @@ But I have never touched unit tests that were not frontend tests. Why? Because t
 
 So I sat there, never touched testing in unit (because why should they teach us useful things lol) nor in my project before (everything just works) and have to grasp new concepts like `mocking` functions.
 
-To sum it up it was quite a ride. But I managed to put out not only unit tests but also integration tests (additively by accident). And they worked!
+To sum it up it was quite a ride. But I managed to put out not only unit tests but also integration tests (admittedly by accident). And they worked!
 
-Now just slap in a workflow to automatically run unittests on PRs and commits and I can release my first project I just ... ooooooh Scheiße...
+Now just slap in a workflow to automatically run unit tests on PRs and commits and I can release my first project I just ... ooooooh Scheiße...
 
 ### Read the f*cking docs!
 
@@ -102,7 +102,7 @@ I anxiously committed the PyPi publishing workflow and watched that yellow circl
 
 Spoiler: It did not.
 
-Turns out a workflow like this only works on `tags`. So, after a quick introduction into `git tags` by my mentor finally that thing turned green and on this day, the **11th of May 2023** Nester was finally free to spread its wings and help people create new projects with one simple commands.
+Turns out a workflow like this only works on `tags`. So, after a quick introduction into `git tags` by my mentor finally that thing turned green and on this day, the **11th of May 2023** Nester was finally free to spread its wings and help people create new projects with one simple command.
 
 ## First issues
 
@@ -110,7 +110,7 @@ After the first release I leaned back in my chair, the PyPi page open looking on
 
 *"No time to rest!"* I thought. Some more features wanted to be implemented. So I opened the source code and dabbled around with Nester on the side in the terminal until I realized that creating projects with any other language than Python did not work. I checked the JSON files and: turns out, they were all empty. Till today I do not know why.
 
-It was an easy fix though. Add that stuff back it, commit, push, tag, build, release. Two versions at release date. Something only AAA game studios manage to achieve. Yes, I am proud.
+It was an easy fix though. Add that stuff back in, commit, push, tag, build, release. Two versions at release date. Something only AAA game studios manage to achieve. Yes, I am proud.
 
 ## The time since
 
@@ -132,7 +132,7 @@ You know who you are.
 
 You, yes you there. Thank you for reading this and please apologize this excessive post.
 
-If you would like to check Nester out and maybe contribute I would be greatly appreciate it! You can find it on [GitHub](https://github.com/ByteOtter/nester).
+If you would like to check Nester out and maybe contribute I would greatly appreciate it! You can find it on [GitHub](https://github.com/ByteOtter/nester).
 
 Otherwise I'll see you around! :otter:
 
