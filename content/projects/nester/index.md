@@ -130,7 +130,7 @@ You know who you are.
 
 ## You
 
-You, yes you there. Thank you for reading this and please apologize this excessive post.
+You, yes you there. Thank you for reading this!
 
 If you would like to check Nester out and maybe contribute I would greatly appreciate it! You can find it on [GitHub](https://github.com/ByteOtter/nester).
 
