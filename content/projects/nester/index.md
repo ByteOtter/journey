@@ -90,37 +90,37 @@ I mentioned documentation somewhere up there, didn't I?
 
 Yeah. In my bright mind I wanted to do what I would do for my work project too: Use [`sphinx`](https://www.sphinx-doc.org/en/master/) to automatically create and build documentation from my code and publish it to [`Read the Docs`](https://readthedocs.org/).
 
-*Sigh* Here we go again...
+So, here we go again...
 
 So, go over the entire code and add proper docstrings so sphinx can build correct documentation. Configure sphinx and its extensions so they actually run and don't crash for no reason. Steal a documentation publishing workflow from my colleague and see it fail as I did not change it correctly to fit my project. Change the horribly documented sphinx css sheet to at least have a little bit of theming going on. See the ReadtheDocs build fail because yes and then ... all green!
 
-Nester now has documentation! This means I can finally...
+Nester now has documentation!
 
 ### Releasing the first version
 
-I anxiously committed the PyPi publishing workflow and watched that yellow circle to it's thing. Hoping, begging that `v0.1.0` of Nester would see the light of day.
+I anxiously committed the PyPi publishing workflow and watched that yellow circle do its thing. Hoping, that `v0.1.0` of Nester would see the light of day.
 
 Spoiler: It did not.
 
-Turns out a workflow like this only works on `tags`. So, after a quick introduction into `git tags` by my mentor finally that thing turned green and on this day, the **11th of May 2023** Nester was finally free to spread its wings and help people create new projects with one simple command.
+Turns out a workflow like this only works on tags. So, after a quick introduction into `git tags` by my mentor, finally that thing turned green and on this day, the **11th of May 2023** Nester was finally free to spread its wings and help people create new projects with one simple command.
 
 ## First issues
 
 After the first release I leaned back in my chair, the PyPi page open looking on what I had achieved with the help of my friends and colleagues.
 
-*"No time to rest!"* I thought. Some more features wanted to be implemented. So I opened the source code and dabbled around with Nester on the side in the terminal until I realized that creating projects with any other language than Python did not work. I checked the JSON files and: turns out, they were all empty. Till today I do not know why.
+No time to rest however, some more features wanted to be implemented. So I opened the source code and dabbled around with Nester on the side in the terminal until I realized that creating projects with any other language than Python did not work. I checked the JSON files and turns out, they were all empty. Until today I do not know why.
 
 It was an easy fix though. Add that stuff back in, commit, push, tag, build, release. Two versions at release date. Something only AAA game studios manage to achieve. Yes, I am proud.
 
 ## The time since
 
-Ever since Nester released my development speed has slowed slightly with it as it is currently not my top priority anymore as I made progress with my work. However, I did built a new feature into it: Allowing Nester to keep a log of projects it creates and maintain and sanitize that log and keep track so the user does not create duplicate projects etc. Quite proud of that little feature to be honest.
+Ever since Nester released my development speed has slowed slightly as it is currently not my top priority anymore as I made progress with my work. However, I did built a new feature into it: Allowing Nester to keep a log of projects it creates and maintain and sanitize that log and keep track so the user does not create duplicate projects etc. Quite proud of that little feature to be honest.
 
-I plan to steadily built on top of Nester and improve it, expand the supported languages, add an interactive mode. And see what ideas I get in the future. A bit more project management utility would be nice, wouldn't it?
+I plan to steadily build on top of Nester and improve it, expand the supported languages, add an interactive mode. And see what ideas I get in the future. A bit more project management utility would be nice, wouldn't it?
 
 All in all Nester, and my project at work, have both taught me a lot about creating projects from scratch as well as how to break up a problem into smaller tasks and tackle them one by one. They also taught me where and how to look for help, how to argue my case (e.g. where and why to use a certain dependency) physically in the office or publicly in a written discussion on GitHub or similar.
 
-And though Nester is mainly a learning project, we are currently in the process on expanding on it and throw it in OBS to maybe one day package it for openSUSE. Who knows what the future holds? I am excited anyways...
+And although Nester is mainly a learning project, we are currently in the process on expanding on it and throw it in OBS to maybe one day package it for openSUSE. Who knows what the future holds? I am excited anyways...
 
 ## Thanks
 
