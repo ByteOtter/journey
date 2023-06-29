@@ -57,14 +57,14 @@ Nester's core functionality, at first, consisted of three functions:
 
 `nester create`, as the name implies, tells Nester to create a new project given the short form of a language (like `py` for Python, `cs` for C#, etc) and a project name. It does so by looking for a JSON schema with the name of the language and creating files and directories according to it.
 
-The way `nester create` works is actually quite cool (props to my colleague for that): JSON data is represented by Dictionaries (A list of `key` and `value` pairs). The `keys`, a String, is seen as the directory- or filename. Then it will be checked if the key is a string. If yes, it is assumed as a file and a `touch` command is executed to create the file and write the content of the string to it if applicable. If it is a dictionary however, it is assumed that the name corresponds to a directory and a mkdir is executed, the directory changed to inside the new directory and the contents of this dictionary are checked.
+The way `nester create` works is actually quite cool (props to my colleague for that): JSON data is represented by Dictionaries (A list of `key` and `value` pairs). The `keys`, a String, is seen as the directory- or filename. Then it will be checked if the value is a string. If yes, it is assumed as a file and a `touch` command is executed to create the file and write the content of the string to it if applicable. If it is a dictionary however, it is assumed that the name corresponds to a directory and a `mkdir` is executed, the directory changed to inside the new directory and the contents of this dictionary are checked.
 
 Cool side notes aside, these three functions were the core of what Nester should be able to do.
 
 ### Testing, testing testing
 
 It took a week or two to implement the core of Nester's functionality. On the side I concerned myself with `setuptools`. I wanted to get that up and running so I could publish Nester, ideally automatically.<br>
-To be hones, a lot of the time it did not want the way I did. Mostly because I was thinking wrong:<br>
+To be honest, a lot of the time it did not want the way I did. Mostly because I was thinking wrong:<br>
 Coming from Uni and programming courses in school I thought *"ah everything needs a `main` function"* and in Python that means the typical `main.py` with that nice `if __name__ == "main"` bit inside. And as I tried to get my build system to work I stumbled over `setuptools entrypoints`. Essentially, you tell setuptools in your `pyproject.toml` where your code starts and it will do the rest for you. In my case it starts in my click frontend. So I pointed it to that module, rebuilt it and .... IT WORKED!
 
 Granted, at this point Nester was still broken... BUT it built!
@@ -73,12 +73,12 @@ Now I could go to sleep (it was 4 AM on a workday), and, with an easy mind, buil
 
 Until a realization set in: A well written and organized project must have automated unit tests.
 
-Oh boi another journey let me tell you...
+Another journey let me tell you...
 
 I mentioned that in my previous team I was in software QA. And I learned some things about automated testing, testing web frontend stuff, etc, etc...<br>
 But I have never touched unit tests that were not frontend tests. Why? Because these fell into a different team.
 
-So I sat there, never touched testing in unit (because why should they teach us useful things lol) nor in my project before (everything just works) and have to grasp new concepts like `mocking` functions.
+So I sat there, never touched testing in university (because why should they teach us useful things lol) nor in my project before (everything just works) and have to grasp new concepts like `mocking` functions.
 
 To sum it up it was quite a ride. But I managed to put out not only unit tests but also integration tests (admittedly by accident). And they worked!
 
@@ -92,7 +92,7 @@ Yeah. In my bright mind I wanted to do what I would do for my work project too: 
 
 So, here we go again...
 
-So, go over the entire code and add proper docstrings so sphinx can build correct documentation. Configure sphinx and its extensions so they actually run and don't crash for no reason. Steal a documentation publishing workflow from my colleague and see it fail as I did not change it correctly to fit my project. Change the horribly documented sphinx css sheet to at least have a little bit of theming going on. See the ReadtheDocs build fail because yes and then ... all green!
+So, go over the entire code and add proper docstrings so sphinx can build correct documentation. Configure sphinx and its extensions so they actually run and don't crash for no reason. *Acquire* a documentation publishing workflow from my colleague and see it fail as I did not change it correctly to fit my project. Change the horribly documented sphinx css sheet to at least have a little bit of theming going on. See the ReadtheDocs build fail because yes and then ... all green!
 
 Nester now has documentation!
 
@@ -110,7 +110,7 @@ After the first release I leaned back in my chair, the PyPi page open looking on
 
 No time to rest however, some more features wanted to be implemented. So I opened the source code and dabbled around with Nester on the side in the terminal until I realized that creating projects with any other language than Python did not work. I checked the JSON files and turns out, they were all empty. Until today I do not know why.
 
-It was an easy fix though. Add that stuff back in, commit, push, tag, build, release. Two versions at release date. Something only AAA game studios manage to achieve. Yes, I am proud.
+It was an easy fix though. Add that stuff back in, commit, push, tag, build, release. Two versions at release date. Something only AAA game studios manage to achieve! Yes, I am proud.
 
 ## The time since
 
