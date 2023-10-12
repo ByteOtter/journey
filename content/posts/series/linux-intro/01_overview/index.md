@@ -1,9 +1,9 @@
 ---
-title: "Linux - An Overview"
+title: "Linux 01 - A Overview"
 date: 2023-10-01T18:00:03+02:00
-backgroundImage: "assets/img/konqi.png"
 series: ["Introduction to Linux"]
 series_order: 1
+heroStyle: "background"
 draft: false
 ---
 

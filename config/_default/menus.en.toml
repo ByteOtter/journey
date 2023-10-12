@@ -36,6 +36,17 @@
  pageRef = "projects/nester"
  weight = 10
 
+[[main]]
+ name = "Series"
+ pageRef = "posts/series"
+ weight = 10
+
+ [[main]]
+ name = "Introduction to Linux"
+ parent = "Series"
+ pageRef = "posts/series/linux-intro"
+ weight = 10
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"

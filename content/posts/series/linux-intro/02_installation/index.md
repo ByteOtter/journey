@@ -1,12 +1,9 @@
 ---
-title: "Installing a Linux Distribution"
+title: "Linux 02 - Installing a Linux Distribution"
 date: 2023-10-11T16:00:03+02:00
-hero:
-    image: konqi.png
-    style: background
 series: ["Introduction to Linux"]
 series_order: 2
-heroImage: "img/Konqi.png"
+heroStyle: "background"
 draft: true
 ---
 
