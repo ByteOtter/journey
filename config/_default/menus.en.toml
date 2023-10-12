@@ -89,6 +89,11 @@
   pageRef = "about"
   weight = 10
 
+[[footer]]
+name = "Licenses"
+pageRef = "licenses"
+weight = 10
+
 # [[footer]]
 #   name = "Categories"
 #   pageRef = "categories"

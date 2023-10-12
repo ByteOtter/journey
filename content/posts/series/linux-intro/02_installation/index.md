@@ -7,21 +7,36 @@ heroStyle: "background"
 draft: true
 ---
 
-# Creating a bootable device
+# Step 1: Creating a bootable device
+
+> Hint: If you plan on installing Tumbleweed in a Virtual Machine, you can safely skip the rest of this step after
+> downloading the OS's `.iso` image from [get.opensuse.org](https://get.opensuse.org/tumbleweed/?type=desktop#download).
 
 To install any operating system on a computer you need to create a medium which you can boot from first.
 Usually this is done with a regular USB-Stick.
 
-## On Windows
+First you will need to download the ISO. As we are using `openSUSE Tumbleweed` in this example, you can download the
+operating system here: [get.opensuse.org](https://get.opensuse.org/tumbleweed/?type=desktop#download).<br>
+When you follow this link you will be greeted by a large selection of download options. Worry not, as this overview
+presents you with all the different computer architectures that Tumbleweed supports. Each with its own image.
 
-When you have a Windows computer you can create a bootable USB stick using a tool like
-[Balena Etcher](https://etcher.balena.io/url). Let's go over the process step by step. We are using the distribution
-`openSUSE Tumbleweed`.
+If you have a reasonably modern computer that you want to install the OS on you can safely choose the upper left
+box where it says `Intel or AMD 64-bit desktops`. This version of the OS is built for 64-bit CPUs. To the right of
+this selection are the images for 32-bit PC processors. If you have a very old machine that you wish to revitalize
+this will most likely be the option for you.
 
-1. **Download the ISO-File**. To download the distribution's image visit [https://get.opensuse.org/](https://get.opensuse.org/tumbleweed/?type=desktop#download)<br>
-   When you click the link you will be greeted by a selection of different images. Choose the one which fits your computer.<br>
-   If you have a reasonably modern computer, you will most likely need the `Intel or AMD 64-bit desktops, laptops, and servers (x86_64)` image.<br>
-   In this section you have the choice to either download the offline- or network-image. The first comes with all
-   necessary software packages while the other, smaller, one will download what it needs from the internet during installation.<br>
-   I personally recommend using the larger offline image though. Especially if you are installing in a Virtual Machine.
-2. **Flash your USB-Stick**. (You can skip this step if you use a VM)
+> Hint: If you are unsure which architecture your system has, stand by as I am working on an excursion on how to find out
+> and why this matters. Until then Google is your friend, simply Google the PC or CPU you have and it will tell you.
+
+I will not go over on how to create a bootable USB-Stick in this guide. There are many articles out there which explain
+this process step by step with every tool under the sun. I have two good ones right here:
+
+- On Windows the tool I recommend for creating bootable USB devices, or SD cards, is [`Balena Etcher`](https://etcher.balena.io/)
+  it's quite literally a 3 click process. Just download the ISO, select the USB-device and off you go.
+- In the off-chance you are using Linux, you probably already know how to do it using the `dd` command.
+  In case you do not, however, here is an example:
+  ```bash
+  sudo dd if=openSUSE-Tumbleweed.iso of=/dev/sdb status=progress
+  ```
+  This can take a while to complete. **Do not forget** to replace `/dev/sdb` with the correct device name. You can check
+  this by using `lsblk` followed by `sudo umount <DEVICE>`.

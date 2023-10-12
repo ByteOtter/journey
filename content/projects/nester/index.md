@@ -1,6 +1,7 @@
 ---
 title: "Nester"
 date: 2023-06-15T22:43:55+02:00
+heroStyle: "background"
 draft: false
 ---
 
