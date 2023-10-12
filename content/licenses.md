@@ -8,7 +8,7 @@ showAuthor: false
 
 # Pictures and Artwork
 
-All images except for the Otter artworks are licensed under the `Unsplash` or `CC0` license allowing for private
+Some images used in posts on this private blog are licensed under the `Unsplash` or `CC0` license allowing for private
 non-commercial use without need for credit.
 
 They were aquired through the following sources:
