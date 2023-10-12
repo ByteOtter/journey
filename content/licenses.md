@@ -16,4 +16,4 @@ They were aquired through the following sources:
 - [Unsplash](https://www.unsplash.com)
 - [Pexels](https://www.pexels.com)
 
-Note: I am not sponsored by, nor customer at the plattforms listed above.
+Note: I am not sponsored by, nor customer at the platforms listed above.

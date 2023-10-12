@@ -19,7 +19,7 @@ Firstly, we should agree on a definition on what Linux is or rather, what we ref
 > and software and manage the system's resources, like CPU, memory and storage.
 
 This is probably one of the most common and controversial definitions of the term `Linux`. And I am not really fully
-happy with it myself but for other reasons than the ones, the more experienced of you might suspect.
+happy with it myself but for other reasons than the more experienced of you might suspect.
 
 This is because the term `Linux` technically only refers to the operating system's `kernel`. A `kernel` is the heart, or
 core, of an operating system. It manages all of the computer's resources and acts as a bridge between the hardware and
