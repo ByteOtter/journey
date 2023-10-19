@@ -11,7 +11,7 @@ Welcome to my series *"Introduction to Linux"* in which we will explore the worl
 
 I hope you enjoy this little trip whether you already have some experience with Linux or not.
 
-# What is Linux?
+## What is Linux?
 
 Firstly, we should agree on a definition on what Linux is or rather, what we refer to when talking about `Linux`.
 
@@ -42,7 +42,7 @@ So, summed up in the context of this guide:
 - `Linux` means the **family of operating systems using some kind of Linux kernel**
 - `Distribution` refers to a specific kind of a Linux OS (like Ubuntu, openSUSE, Debian, etc.)
 
-# Why choose Linux?
+## Why choose Linux?
 
 The reasons why people decide to use a Linux system, or switch to it entirely, can be about as varied as the distributions
 themselves.
@@ -57,7 +57,7 @@ would be getting out of hand and may be fit for a more in-depth look in the futu
 In contrast there is not real reason why you should not try Linux. Most distributions are free, small and can easily be
 run in a Virtual Machine. So there is really no barrier to entry here.
 
-# Choosing the right flavour
+## Choosing the right flavour
 
 Before we begin we should try to get an overview on what kinds of distributions exist, what they are used for and
 what you should choose depending on your use-case.
@@ -66,7 +66,7 @@ Let's start with general purpose distributions. For day-to-day operation on your
 A graphical user interface, some sort of office suite (or at least a text editor), a browser, an e-mail client, etc.<br>
 So a full-fledged operating system, as you may be familiar with from the world of Windows (tm), would be preferred.
 
-For this distributions like [`Ubuntu` by Canonical](https://ubuntu.com/download/desktop), [`openSUSE Leap/Tumbleweed`](https://get.opensuse.org/desktop/),
+For this distributions like [`Ubuntu` by Canonical](https://ubuntu.com/download/desktop), [`Leap/Tumbleweed by openSUSE`](https://get.opensuse.org/desktop/),
 or [`Fedora` by RedHat](https://fedoraproject.org/), and others, are excellent choices. All of these have significant
 communities around them, come with graphical installers and offer documentation to help you navigate around. And if you
 are afraid of the Terminal, worry not, as all of these come with `Desktop Environments` that have all necessary tools
@@ -93,3 +93,18 @@ All you need to know is that for this little series we are going to use the dist
 
 Thank you for reading this little overview. I hope you learned something. Join me next time when we finally start
 installing your new system. See you next time.
+
+---
+
+## Glossary
+
+This was a lot of information thrown at you all at once I know.
+
+Here a quick overview of words used so far.
+
+|Phrase|Description|
+|-|-|
+|`Linux`|Refers to the **family of operating systems using some form of the Linux kernel**.|
+|`Distribution`|Refers to a specific kind of Linux OS (like Ubuntu, openSUSE, Debian, etc.).|
+|`Graphical User Interface / GUI`|All visual elements you can interact with or that represent data.|
+|`Desktop Environment (DE)`|The component of a Linux OS that handles the visual interpretation and representation of data and applications and allows for interaction using a GUI.|
