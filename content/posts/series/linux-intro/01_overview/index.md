@@ -54,8 +54,8 @@ tweak their setup fit their working environment to their needs.
 There are many more reasons to list, like the superior reliability in the enterprise business but this list
 would be getting out of hand and may be fit for a more in-depth look in the future.
 
-In contrast there is not real reason why you should not try Linux. Most distributions are free, small and can easily be
-run in a Virtual Machine. So there is really no barrier to entry here.
+In contrast there is not really a reason why you should not try Linux. Most distributions are free, small and can easily
+be run in a Virtual Machine. So there is really no barrier to entry here.
 
 ## Choosing the right flavour
 
