@@ -7,4 +7,16 @@ heroStyle: "background"
 draft: true
 ---
 
-Lorem Ipsum
+## Your workspace
+
+## How software works in Linux
+
+### What is a package?
+
+### The package manager
+
+### The software center
+
+### Hard to find software
+
+### Alternatives to unavailable software
