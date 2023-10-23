@@ -80,8 +80,12 @@ It provides a user-friendly, graphical interface to handle various tasks such as
 hardware configuration, partitioning, and network settings and much more. We will come back to YaST in the future.
 
 Follow the instructions of the installer like you would with Windows or any other operating system.
-When it asks you to enable or disable software repositories just accept the
-default.
+It will ask you to enable or disable `software repositories`. In the Linux world software is provided as `packages`
+which are stored in`repositories`. You can imagine a `repository` as being a directory on a server containing a set of
+software which you can install on your system. We will go into detail on how software management works on Linux systems
+in the next part of this series. You can safely **accept the default repositories**.
+
+These three repositories should be selected by default:
 
 - `Main Update Repository`, the main repository for system updates
 - `Main Repository (OSS)`, the main repository for open-source software you can install
@@ -206,3 +210,6 @@ Here a quick overview of words used so far.
 |`Graphical User Interface / GUI`|All visual elements you can interact with or that represent data.|
 |`Desktop Environment (DE)`|The component of a Linux OS that handles the visual interpretation and representation of data and applications and allows for interaction using a GUI.|
 |`.iso image`|A operating system "image" is simply a digital copy of an operating system that comes in the format of a `.iso`-file.|
+|`software package`|Compressed archive containing all necessary files and data to install and run a give software.|
+|`(software) Repository` / `repo`|A storage location from which your system's package manager can access and install software packages.|
+|`package manager`|A program which is used to manage, install, uninstall or update installed software packages on your system, apply system updates etc.|
