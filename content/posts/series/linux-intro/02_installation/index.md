@@ -1,10 +1,10 @@
 ---
 title: "Linux 02 - Installing a Linux Distribution"
-date: 2023-10-11T16:00:03+02:00
+date: 2023-10-26T16:00:03+02:00
 series: ["Introduction to Linux"]
 series_order: 2
 heroStyle: "background"
-draft: true
+draft: false
 ---
 
 # Before we start
@@ -42,7 +42,7 @@ this choice decides how much you will need to download, and if your system will 
 **Network Image** will need to **download** these packages from the Internet and basically only comes with the installer
 (a couple hundred megabytes).
 
-No matter which image you choose, you will need to falsh it to a volume that your system can boot from. Most commonly
+No matter which image you choose, you will need to flash it to a volume that your system can boot from. Most commonly
 nowadays this is done using a USB stick.
 
 I will not go over on how to create a bootable USB-Stick in this guide. There are many articles out there which explain
@@ -179,7 +179,7 @@ Generally, on a Linux system, you can divide users into three categories:
 |Saving or editing outside the `home` directory is **not permitted**|Can delete/edit **any system file**, though some critical operations may require additional confirmation.||
 |Similar to the concept of user profiles in Windows, where each user has their own files and settings.|Similar to the Administrator account on Windows, though even more powerful.||
 
-One the user creation screen you can enter a username and set a password. Or you can even skip user creation by ticking
+On the user creation screen, you can enter a username and set a password. Or you can even skip user creation by ticking
 the "Skip User Creation" box. This is an option that does not make sense for our use case, but can be handy in a setting
 where you need to run a lot of commands that require root privileges.
 
