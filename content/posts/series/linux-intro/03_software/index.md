@@ -13,7 +13,7 @@ In the previous installments of this series, we went over the general terms of t
 
 What you see now on your screen will look somewhat familiar to other operating systems you may be used to. And that is by design.
 
-A lot of `Desktop Environments` for Linux distributions try to resemble other operating systems. KDE in particular looks and feels very similar to your pre-Windows-11 Windows desktop.
+A lot of `Desktop Environments` for Linux distributions try to resemble other operating systems. `KDE Plasma` in particular looks and feels very similar to your pre-Windows-11 Windows desktop.
 
 In this series we will go over how you search for, install, update and uninstall software on your Linux system. What sources can you draw software from and what choices do you have?
 
@@ -47,13 +47,21 @@ Be careful though, adding new repositories maintained by people you do not know 
 
 ### The software center
 
-Our Tumbleweed install, or rather its Desktop Environment KDE, comes with a dedicated Software Center called **"Discover"**.
+Our Tumbleweed install, or rather its Desktop Environment KDE Plasma, comes with a dedicated Software Center called **"Discover"**.
 
 ![Stylized Discover](./software_center.jpg)
 
-Discover basically handles like a (slow) App Store you might be familiar with on Windows or MacOS. You can search and install software and updates via a nice, simple graphical interface.
+Discover basically handles like an App Store you might be familiar with on Windows or MacOS. You can search and install software and updates via a nice, simple graphical interface.
 
-In the background, Discover runs the same terminal commands you would when you would install or update software via the Terminal; It just provides a nice graphical interface, so you do not have to use the terminal at all in day-to-day use.
+In the background, Discover uses a tool called `packagekit`, which describes itself as follows:
+
+> "(...) a system designed to make installing and updating
+    software on your computer easier.  The primary design goal is to unify
+    all the software graphical tools used in different distributions, and
+    use some of the latest technology like PolicyKit to make the process
+    suck less."
+
+You do not need to remember all that. For our purposes `packagekit` is simply another package manager system.
 
 For our guide, however, we want to go over the Linux basics so we will use the Terminal to at least understand how to do this. (You will not always have a desktop interface or software center anyways.)
 
@@ -161,9 +169,7 @@ There are several advantages of using Flatpaks:
 
 - **Isolation**: Flatpaks run in **isolation from the system** in a *sandbox environment*. This can prevent buggy software from impacting your system and increases your system's security as a whole.
 
-- **Included dependencies**: Unlike installing software via you distribution's package manager, Flatpaks come **bundled with most dependencies.** Therefore reducing the need to install additional packages because of one piece of software.
-
-- **Self-updating**: Fltapak apps can self-update, meaning you do not need to worry about your software not working after a distribution update.
+- **Self-updating**: Flatpak apps can self-update, meaning you do not need to worry about your software not working after a distribution update.
 
 You can install and use Flatpaks via the Terminal, or by activating Flatpaks in **Discover**.
 
@@ -203,7 +209,7 @@ Yes, it may not be as polished as the Microsoft Office experience, but it does i
 
 For image editing, there are a ton of great free tools that you can use depending on what kind of editing you want to do.
 
-If you want to make digital artwork (like I did) one of the most popular choices is [`Krita`](https://krita.org/), a feature-rich digital drawing and image manipulation software made by some of the same people who brought us our Desktop Environment: `KDE`.
+If you want to make digital artwork (like I did) one of the most popular choices is [`Krita`](https://krita.org/), a feature-rich digital drawing and image manipulation software made by some of the same people who brought us our Desktop Environment: `KDE Plasma`.
 
 Other prominent choices include [`GIMP`](https://www.gimp.org/), a powerful image manipulation tool similar to the likes of Photoshop, `Pita`, a basic image editor similar to MS Paint, and `InkScape`, an editor similar to Adobe Illustrator.
 
@@ -256,7 +262,11 @@ But you also have the option of installing the integrated development environmen
 
 And the best thing is: **All** of what I have listed **above is managed by your package manager**. Updated automatically for you all at once.
 
-However, while Linux offers many advantages for software development, it also has some limitations. One of the main challenges is the lack of standardization in the ecosystem. Unlike Windows or MacOS, which have a more centralized approach to software distribution and standardization, Linux has a more decentralized approach with many different distributions and package formats. This can lead to potential issues with compatibility between different distributions. So not very good if you hop a lot between different platforms and distros.
+However, while Linux offers many advantages for software development, it also has some limitations. One of the main challenges is the lack of standardization in the ecosystem.
+Windows and MacOS have the advantage that they are uniform. Each copy of a certain version of Windows and MacOS will generally behave the same. They each share their **same respective codebases, architectures and design philosophies**. This, compounded by the fact that they are **compiled once** by Microsoft or Apple respectively, ensures that developers only need to account for the specifics of one Version of Windows or MacOS.<br>
+**Linux** on the other hand **is very diverse**. Something that I have harped on a lot in the first part of this series. This, in principle, is a great thing. It **allows everyone to modify their distribution to include all the things they like** and remove all the things they do not like.<br>
+But this is also a huge drawback for developers, as each distribution does things a little differently. From obvious things like which Package Manager or Desktop they use, to little details like the exact name or location of a configuration file or library they might need to slight variations in the version of `Kernel` they use. This is without starting on all the different packaging formats that exist.<br>
+All of this can lead to potential issues with compatibility between different distributions. So not very good if you hop a lot between different platforms and distros.
 
 Despite these challenges however, Linux provides a lot of flexibility and power for developers. With the right tools and a bit of familiarity, you can create a comfortable and efficient development environment. I could go on but I will end it here for now.
 
