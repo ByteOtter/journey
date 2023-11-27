@@ -1,6 +1,6 @@
 ---
-title: "Linux 03 - Your First Steps"
-date: 2023-11-25T18:00:03+02:00
+title: "Linux 03 - Software on Linux"
+date: 2023-11-27T18:00:03+02:00
 series: ["Introduction to Linux"]
 series_order: 3
 heroStyle: "background"
@@ -11,11 +11,13 @@ draft: true
 
 In the previous installments of this series, we went over the general terms of the Linux world and installed your first Linux distribution `openSUSE Tumbleweed`.
 
-What you see now on your screen will look somewhat familiar to other operating systems you may be used to. And that's by design.
+What you see now on your screen will look somewhat familiar to other operating systems you may be used to. And that is by design.
 
 A lot of `Desktop Environments` for Linux distributions try to resemble other operating systems. KDE in particular looks and feels very similar to your pre-Windows-11 Windows desktop.
 
-## How software works in Linux
+In this series we will go over how you search for, install, update and uninstall software on your Linux system. What sources can you draw software from and what choices do you have?
+
+## How software works on Linux
 
 In the Linux world, software comes in the form of software `packages`. These `packages` are a collection of files and metadata which make up a specific software application.
 
@@ -201,18 +203,18 @@ Yes, it may not be as polished as the Microsoft Office experience, but it does i
 
 For image editing, there are a ton of great free tools that you can use depending on what kind of editing you want to do.
 
-If you want to make digital artwork (like I did) one of the most popular choices is `Krita`, a feature-rich digital drawing and image manipulation software made by some of the same people who brought us our Desktop Environment: `KDE`.
+If you want to make digital artwork (like I did) one of the most popular choices is [`Krita`](https://krita.org/), a feature-rich digital drawing and image manipulation software made by some of the same people who brought us our Desktop Environment: `KDE`.
 
-Other prominent choices include `GIMP`, a powerful image manipulation tool similar to the likes of Photoshop, `Pita`, a basic image editor similar to MS Paint, and `InkScape`, an editor similar to Adobe Illustrator.
+Other prominent choices include [`GIMP`](https://www.gimp.org/), a powerful image manipulation tool similar to the likes of Photoshop, `Pita`, a basic image editor similar to MS Paint, and `InkScape`, an editor similar to Adobe Illustrator.
 
-If you **must use Adobe Photoshop** worry nought though, as there are several ways on how to run Photoshop on Linux. Though it is not officially supported (yet) and not open-source software (which is inherently bad of course).
+If you **must use Adobe Photoshop** worry not though, as there are several ways on how to run Photoshop on Linux. Though it is not officially supported (yet) and not open-source software (which is inherently bad of course).
 
 In [this article by Teo Elizalde from MakeUseOf.com](https://www.makeuseof.com/tag/install-adobe-photoshop-linux/) you can find some ways of getting it to work. Though I would guess doing it that way will be a little scuffed around the edges.
 
 #### <span style="text-decoration:underline">Video Editing</span>
 
 If you are into video editing there is one popular choice, coincidentally also developed by KDE (I swear I am not sponsored):
-`Kdenlive`.
+[`Kdenlive`](https://kdenlive.org/en/).
 
 `Kdenlive` is a powerful and feature-rich video editor available for Windows, Linux (Flatpak, AppImage, Ubuntu Package) and Intel Macs.
 
@@ -222,7 +224,7 @@ The choice here really depends on your personal workflow, experience and feature
 
 #### <span style="text-decoration:underline">Audio Editing</span>
 
-Audio editing is also a huge topic. There used to be one popular choice for everyone no matter on which platform: `Audacity`.
+Audio editing is also a huge topic. There used to be one popular choice for everyone no matter on which platform: [`Audacity`](https://www.audacityteam.org/).
 
 While this tool has had its fair share of controversies and scandals regarding privacy and their understanding of open-source in the past, it still seems to be the number one choice and has been for decades.
 
@@ -230,35 +232,45 @@ I am not a musician, audiophile or audio editor by any stretch of the imaginatio
 
 #### <span style="text-decoration:underline">Software Development</span>
 
-TODO: Go over this again. Or maybe remove this entirely?
+If you are a software developer and have not been using Linux yet (where have you been? :P), **welcome to heaven**!
 
-If you are a software developer and not already using Linux (where have you been :P), **welcome to heaven**!
+Okay, this may be a little overstatement, but a Linux-based development environment can, depending on the work you are doing and how you are doing it, be easier and more convenient than one on Windows or MacOS.
 
-Well, this may be an overstatement. What is not however, is how simple it is ot install the language and the tools you need on Linux in comparison to Windows.
+That is if you do not require certain platform-specific features of these systems.
 
-Now, I want to make it clear that the last time of me trying to set up a working development environment on Windows ... it has been a while. But I vividly remember that it was not very funny. Going to all the websites, downloading all the `.exe` files, it was a mess. Especially as a certain something asks to update itself every couple of days. Looking at you, Java.
+*Sidenote:* The last time I tried to set up a development environment on Windows has been quite a while so some things may have changed on the  Windows side of things. Though I do remember, very vividly, having to spend quite a while downloading installers from websites and clicking myself through them just to have a certain someone to ask for updates every two days. Looking at you Java.
 
-On Linux, you do not really have to worry about most of this. Yes, you still need to look up how the package is called or what not, but installing it usually is one Terminal command that you can mostly copy and paste from the organization's website or repository Readme. If it is not already installed that is.
+Linux distributions offer a multitude of tools and languages for software development. In fact, free software movement and (later) the Linux community which grew within it have created many tools that are still used for commercial and non-commercial purposes. One good example would be `GCC`, or the GNU Compiler Collection, a project started by the [GNU Project](https://www.gnu.org/software/) providing compilers for Ada, C, C++, Go and Fortran, which to this day builds the back bone of many Linux and non-Linux systems.
 
-And that is exactly it. The most popular languages and compilers mostly come pre-installed with any Linux distributions as they are needed for the system anyways.
+Many Linux distributions come pre-installed with a variety of tools that can be used for software development. For instance, Docker, a popular tool for creating specialized and isolated development, test or execution environments, is readily available and can be easily used on Linux as it comes pre-installed on a lot of distributions.
 
-TODO: Apparently not always the case. Need to install on Debian, RedHat and openSUSE (gcc)
+In the case of `openSUSE Tumbleweed`, several development tools come pre-installed. These include the GCC compiler for C and C++ programming, the `make` utility for building software programs based on a Makefile, and the `gdb` debugger tool for debugging C and C++ programs.
 
-C? Installed alongside various C compilers like `gcc` and `make`
+Also, installed are languages like `Python`, alongside its native package manager `pip`, as it is widely used for scientific computing, data analysis, machine learning and web development.
 
-C++? AFAIK also pre-installed alongside g++
+Languages or tools, which are not pre-installed, are usually only one `zypper` command away.
 
-Python? Well you want Python 2.x or 3.x? Because both are installed alongside `pip`. Only need to install you virtual environment tool and you are good to go.
+Linux distributions also provides a variety of text editors out of the box which, while minimalistic, are fully functional text editors perfectly fine for writing code. Good examples are the very basic classic `vi`, its less basic brother `vim`, `emacs`, `nano` or `atom`. And thanks to the open-source community you can also switch to a upgraded version of your favorite editor, like `neovim`.
 
-Most other things are just one `zypper` command away.
+But you also have the option of installing the integrated development environments (IDEs) that you might be familiar with from your experience on Windows or MacOS. From the Linux versions of known fully-fledged IDEs like `VSCode`, its open-source brother `Codium`, to the famous, powerful (and proprietary) [JetBrains](https://www.jetbrains.com/) IDEs, to more basic but extendable Text Editors/IDEs like `Kate` or `Kdevelop` by KDE (I swear I will stop, now).
 
-And this overview excludes things like `bash` that is a given as you have a Shell after all.
+And the best thing is: **All** of what I have listed **above is managed by your package manager**. Updated automatically for you all at once.
 
-The most important thing as a software developer on Linux is whether you want a rolling release distribution, with almost daily updates in most cases at the cost of stability, or a stable distribution, with less frequently updated packages which usually do not break that often. We will come back to this in an excursion on what exactly that means in the future, stay tuned for that.
+However, while Linux offers many advantages for software development, it also has some limitations. One of the main challenges is the lack of standardization in the ecosystem. Unlike Windows or MacOS, which have a more centralized approach to software distribution and standardization, Linux has a more decentralized approach with many different distributions and package formats. This can lead to potential issues with compatibility between different distributions. So not very good if you hop a lot between different platforms and distros.
+
+Despite these challenges however, Linux provides a lot of flexibility and power for developers. With the right tools and a bit of familiarity, you can create a comfortable and efficient development environment. I could go on but I will end it here for now.
+
+In the future, I will publish an excursion going into the details of how to set up a working development environment for Python and Rust (the two languages I am currently using the most), so stay tuned for that.
 
 ### Wrapping up
 
-TODO
+Now, this was quite a lot information for one day. Let all of that sink in and try to fiddle around with your system. Why not install a new browser? Or an image editor?
+
+Practice makes perfect! ;)
+
+Thank you for reading all this, I hope you learned something.
+
+Until next time!
 
 ---
 
@@ -271,7 +283,7 @@ Here a quick overview of words used so far.
 |Phrase|Description|
 |-|-|
 |`proprietary software`|Software with non-open-source code (usually kept secret) with non-free licenses and exclusive copyrights to a certain individual or organization.|
-|`open-source software`|Software with usually publicly available source code under a free license which allows outside contributions, modifications and copies free of charge. The important thing is not that you have access to the source code, but that it is licensed under a free license.|
+|`open-source software`|Software with usually publicly available source code under a free license which allows outside contributions, modifications and copies free of charge. The important thing is not that you have access to the source code though, but that it is licensed under a free license.|
 |`Linux`|Refers to the **family of operating systems using some form of the Linux kernel**.|
 |`Distribution`|Refers to a specific kind of Linux OS (like Ubuntu, openSUSE, Debian, etc.).|
 |`Graphical User Interface / GUI`|All visual elements you can interact with or that represent data.|
@@ -280,3 +292,5 @@ Here a quick overview of words used so far.
 |`software package`|Compressed archive containing all necessary files and data to install and run a give software.|
 |`(software) Repository` / `repo`|A storage location from which your system's package manager can access and install software packages.|
 |`package manager`|A program which is used to manage, install, uninstall or update installed software packages on your system, apply system updates etc.|
+
+<small>Hero Image by [Claudio Schwarz@unsplash.com](https://unsplash.com/photos/brown-cardboard-boxes-on-brown-cardboard-box-a85IYeAXgxU)</small>
