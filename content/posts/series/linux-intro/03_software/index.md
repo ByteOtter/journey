@@ -1,10 +1,10 @@
 ---
 title: "Linux 03 - Software on Linux"
-date: 2023-11-27T18:00:03+02:00
+date: 2023-11-27T23:03:03+02:00
 series: ["Introduction to Linux"]
 series_order: 3
 heroStyle: "background"
-draft: true
+draft: false
 ---
 
 ## Your workspace
@@ -264,7 +264,7 @@ And the best thing is: **All** of what I have listed **above is managed by your 
 
 However, while Linux offers many advantages for software development, it also has some limitations. One of the main challenges is the lack of standardization in the ecosystem.
 Windows and MacOS have the advantage that they are uniform. Each copy of a certain version of Windows and MacOS will generally behave the same. They each share their **same respective codebases, architectures and design philosophies**. This, compounded by the fact that they are **compiled once** by Microsoft or Apple respectively, ensures that developers only need to account for the specifics of one Version of Windows or MacOS.<br>
-**Linux** on the other hand **is very diverse**. Something that I have harped on a lot in the first part of this series. This, in principle, is a great thing. It **allows everyone to modify their distribution to include all the things they like** and remove all the things they do not like.<br>
+**Linux** on the other hand **is very diverse**. Something that I have harped on a lot in the first part of this series. This, in principle, is a great thing. It **allows everyone to modify their distribution to include all the things they like** and **remove all the things they do not like**.<br>
 But this is also a huge drawback for developers, as each distribution does things a little differently. From obvious things like which Package Manager or Desktop they use, to little details like the exact name or location of a configuration file or library they might need to slight variations in the version of `Kernel` they use. This is without starting on all the different packaging formats that exist.<br>
 All of this can lead to potential issues with compatibility between different distributions. So not very good if you hop a lot between different platforms and distros.
 
