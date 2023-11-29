@@ -63,7 +63,9 @@ In the background, Discover uses a tool called `packagekit`, which describes its
 
 You do not need to remember all that. For our purposes `packagekit` is simply another package manager system.
 
-For our guide, however, we want to go over the Linux basics so we will use the Terminal to at least understand how to do this. (You will not always have a desktop interface or software center anyways.)
+For our guide however, we want to go over the Linux basics so we will use the Terminal to at least understand how to do this. (You might not always have a desktop interface or software center anyways.)
+
+So go ahead and open the `Konsole` application, which is KDE Plasma's integrated `terminal`. (Technically Terminal Emulator but we will use these words synonymously. For a deep dive into that [click here](https://en.wikipedia.org/wiki/Terminal_emulator))
 
 So, let's take a look at some of our commands of Tumbleweed's `package manager` called `zypper`:
 
