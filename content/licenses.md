@@ -5,6 +5,15 @@ draft: false
 showtableOfContents: false
 showAuthor: false
 ---
+# The Blogposts
+
+Any and all work I upload to this site in the form of posts is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+
+| Permission or Restriction | Description |
+| --- | --- |
+| **Attribution (BY)** | You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. |
+| **NonCommercial (NC)** | You may not use the material for commercial purposes. This means that you can't use the material to generate a profit or to promote commercial activities. |
+| **NoDerivatives (ND)** | If you remix, transform, or build upon the material, you may not distribute the modified material. This means that you can't create derivative works or adaptations of the material. |
 
 # Pictures and Artwork
 
