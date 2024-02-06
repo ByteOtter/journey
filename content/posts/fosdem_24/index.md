@@ -12,9 +12,9 @@ This year, I wanted to change that. And boy did I.
 
 ## Planning? To hell with that...
 
-Just as last year, I did not look up what talks were planned until I had breakfast on Saturday morning and was heading up to the ULB, the Free University of Brussels. Quite the planner i know...
+Just like last year, I did not look up what talks were scheduled until I had breakfast on Saturday morning and was heading up to the ULB, the Free University of Brussels. Quite the planner i know...
 
-I have to say, the selection was great this year. I was especially interested in the Rust devroom, as I am lately learning and using Rust quite intensively for a project I am working on (and probably will soon talk about here). So I wanted to use this chance to take away as much as possible from the talks there.
+I have to say, the selection was great this year. I was especially interested in the Rust devroom, as I am lately learning and using Rust quite intensively for a project I am working on (and probably will talk about here soon). So I wanted to use this chance to take away as much as possible from the talks there.
 
 When we arrived around 10am though, my colleague and I quickly learned that the Rust devroom was a **very** popular destination. The line was stretched alongside the narrow corridor of Building H.
 
