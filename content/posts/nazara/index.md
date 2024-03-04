@@ -1,7 +1,7 @@
 ---
 title: "So, I did a thing..."
 date: 2024-03-04T20:00:03+02:00
-draft: true
+draft: false 
 ---
 
 You may be wondering where I have been in the past 2 months ... or maybe not I have no idea if someone is even reading this.
