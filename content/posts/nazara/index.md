@@ -25,7 +25,7 @@ us by our hardware partners.
 Setting them up, putting them into a rack in our server room and configuring them, stuff like that.
 I also got insight in how we keep track and manage these machines.
 
-One of the tools we used was NetBox. A inventory and IPMI management tool, where we entered the machines IP addresses,
+One of the tools we used was NetBox. A inventory and IPAM (IP address managemnet) tool, where we entered the machines IP addresses,
 name, hardware components, etc largely manually.
 
 That's where my teamlead and I came to an idea. I wanted to learn Rust and I am also a fan of automation.
