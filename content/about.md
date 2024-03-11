@@ -25,7 +25,7 @@ In case you need to get in contact with me for any reason and the usual channels
 
 Matrix Chat: @chris:kde.org
 
-E-Mail: christopher-hock@protonmail.com
+E-Mail: byteotter@gmail.com
 
 ## Imprint Disclaimer
 
