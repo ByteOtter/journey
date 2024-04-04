@@ -14,27 +14,27 @@ This year, I wanted to change that. And boy did I.
 
 Just like last year, I did not look up what talks were scheduled until I had breakfast on Saturday morning and was heading up to the ULB, the Free University of Brussels. Quite the planner i know...
 
-I have to say, the selection was great this year. I was especially interested in the Rust devroom, as I am lately learning and using Rust quite intensively for a project I am working on (and probably will talk about here soon). So I wanted to use this chance to take away as much as possible from the talks there.
+I have to say, the selection was great this year. I was especially interested in the Rust Devroom, as I am lately learning and using Rust quite intensively for a project I am working on (and probably will talk about here soon). So I wanted to use this chance to take away as much as possible from the talks there.
 
-When we arrived around 10am though, my colleague and I quickly learned that the Rust devroom was a **very** popular destination. The line was stretched alongside the narrow corridor of Building H.
+When we arrived around 10am though, my colleague and I quickly learned that the Rust Devroom was a **very** popular destination. The line was stretched alongside the narrow corridor of building H.
 
 Sadly due to this I missed the first 3 talks. Semantic Versioning, Writing a Rust linter, GCCRS, And Hardware pointer checks.
 
 ## Day 1 - Spending a Day with Rust
 
-We decided to wait in fron of the door for the whole time of the last one of these talks and then, finally were let inside for the main talks we wanted to see:
+We decided to wait in front of the door for the whole time of the last one of these talks and then, finally were let inside for the main talks we wanted to see:
 
 - "*Proving Performance*" by Nikolai Vasquez his performance benchmarking tool [`Divan`](https://nikolaivazquez.com/blog/divan/) and how to correctly assess performance in Rust
 - "*[The Four Horsemen of Bad Rust Code](https://github.com/corrode/four-horsemen-talk)*" by Matthias Endler about the four major pitfalls of Rust development.
 - "*Introducing Ratatui*" by Orhun Parmaksiz introducing us to the impressive TUI framework Ratatui. (Something I am very interested in as I like TUIs very much.)
 
-We spend about 4 hours in the Rust devroom and I cannot say I regretted one minute of it.
+We spend about 4 hours in the Rust Devroom and I cannot say I regretted one minute of it.
 
 I would not call myself too deep in Rust, but I was able to take a lot away from these talks still. Especially the Four Horsemen one.
 
-After these, we decided to take a quick break, stretch out our legs and check the schedule for other talks. Maybe in a more well ventilated room. (Did i mention that the Rust devroom was a windowless seminar room?)
+After these, we decided to take a quick break, stretch out our legs and check the schedule for other talks. Maybe in a more well ventilated room. (Did i mention that the Rust Devroom was a windowless seminar room?)
 
-We checked the main tracks in Building K and found a very intriguing title: "*One way forward: finding a path to what comes after Unix*".
+We checked the main tracks in building K and found a very intriguing title: "*One way forward: finding a path to what comes after Unix*".
 
 A very interesting talks by Liam Proven about the growing complexity of Unix systems, especially the Linux Kernel, and what comes after.
 
@@ -51,7 +51,7 @@ Things like properly documenting changes, providing new features and changes as 
 
 After that, we decided to take a long break, meet up with other colleagues and have some in-promptu baguette lunch on a concrete retainer wall in front of building H.
 
-Then we went to the last talk for me: "*The Monolith versus the Swarm*" by Den Cermark. A comparison between the monolithic approach to packaging of openSUSE with OBS, and the swarm approach of Fedora. The main takeaway was: Both suck in their own way. While being great at the same time. I was surprised (and disturbed) by the number of systems Fedora uses for packaging, and felt Den smacking the complicated configuration of OBS. As someone who has packaged a Python application and tried (unsuccessfully) to package a Ruby application, I felt that a lot.
+Then we went to the last talk for me: "*The Monolith versus the Swarm*" by Dan Čermák. A comparison between the monolithic approach to packaging of openSUSE with OBS, and the swarm approach of Fedora. The main takeaway was: Both suck in their own way. While being great at the same time. I was surprised (and disturbed) by the number of systems Fedora uses for packaging, and felt Dan smacking the complicated configuration of OBS. As someone who has packaged a Python application and tried (unsuccessfully) to package a Ruby application, I felt that a lot.
 
 One other talk which I would like to mention was about building a public cloud for 5 million students. It was held by someone from OwnCloud and mentioned their path to providing millions of students in Europe and their schools with cloud solutions. This included ByCS or "Bayerncloud Schule". A system ordered by the state of Bavaria's education ministry which I am very familiar with due to my regular blocks of schools during my apprenticeship.
 The talk confirmed by suspicions that the regular downtimes, bugs and other problems we have with ByCS and its integrated applications (Especially Mebis (A Moodle fork) and the new ByCS Messenger (A custom patches version of the Element Matrix client)) are less of an issue with the system itself, or the used FOSS tools, but rather with he inability of the ministry of education to set up their stuff correctly (indicated by ByCS Messenger's inability to exchange keys).
@@ -90,7 +90,7 @@ This little guy was a gift by a colleague. He had to think of me, isn't that nic
 
 The little guy got a special place on my TwinkPad.
 
-(No affiliation with the company btw. Though they seem to be interesting from their webiste.)
+(No affiliation with the company btw. Though they seem to be interesting from their website.)
 
 ![A sign saying "Not all ways lead to chrome" put up by the people developing Firefox. Very true, very true.](./not_all_ways_lead_to_chrome.jpg)
 
