@@ -1,7 +1,8 @@
 ---
 title: "A word about Perl..."
-date: 2024-05-16T20:00:03+02:00
+date: 2024-05-17T20:00:03+02:00
 draft: false
+heroStyle: background
 ---
 
 So, Perl ... Perl, Perl, Perl.
@@ -39,10 +40,13 @@ is providing a verification run on that PRs code to show to maintainers that it 
 When I triggered my verification run, however, it failed almost immediately with a compile error.
 
 ```
-TODO: Compile error message here.
+[...]
+Bareword "test_cargo_run" not allowed when using "strict subs"
+[...]
 ```
 
-At first I thought - naive that I am - that it was about some naming convention. Changed that, tried again and it still failed.
+At first I thought - naive that I am - that it was about some naming convention. I had a smiliar issue before with names starting in `test_` being
+blocked. So I changed that, tried again and it still failed.
 
 By this time, my Mentor and I had been looking over my code for a while, but apart from some minor things we need to watch out for later,
 it should at least compile.
@@ -72,7 +76,7 @@ some_func;
 # ...
 ```
 
-Nice and stright forward isn't it? Yes it is! And its mostly used for built-in subroutines but can be used for custom ones as well.
+Nice and straight forward isn't it? Yes it is! And its mostly used for built-in subroutines but can be used for custom ones as well.
 
 Though what I did *not* know is this:
 
@@ -136,4 +140,8 @@ Which brings us down a rabid hole about modularization and consolidation but tha
 
 I just wanted to make you all aware of some of the weird quirks you'll fine when doing Perl.
 
-Thanks for reading, see you next time.
+Thanks for reading, see you next time. :otter:
+
+---
+
+Background image by Wolfgang Hasselmann @ Unsplash
