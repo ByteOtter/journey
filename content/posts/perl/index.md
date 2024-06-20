@@ -1,7 +1,7 @@
 ---
 title: "A word about Perl..."
 date: 2024-05-17T20:00:03+02:00
-draft: false
+draft: true
 heroStyle: background
 ---
 
@@ -35,7 +35,7 @@ the ones for the `python3` package. So far so well, my logic was sound:
 
 However, I ran into a problem. A very peculiar one as well.
 Part of submissions for the `os-autoinst-distri-opensuse` repo, where the test files for openSUSE are located,
-is providing a verification run on that PRs code to show to maintainers that it works and does what it is intended to do.
+is a verification run on that PR's code to show to maintainers that it works and does what it is intended to do.
 
 When I triggered my verification run, however, it failed almost immediately with a compile error.
 
