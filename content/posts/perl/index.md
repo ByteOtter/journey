@@ -19,9 +19,11 @@ Why?
 Well because [openQA](https://openqa.opensuse.org) is a thing and Perl scripts
 are a core component of that.
 
+But I do like learning new things so this should not be too hard, should it?
+
 ## A peculiar error
 
-All of the above brings us to a problem I noticed while developing new tests for both
+This brings us to a problem I noticed while developing new tests for both
 the `rustup` and `cargo` packages for openSUSE.
 
 While writing these tests, I took strong influence from existing testfiles, such as
@@ -76,9 +78,9 @@ some_func;
 # ...
 ```
 
-Nice and straight forward isn't it? Yes it is! And its mostly used for built-in subroutines but can be used for custom ones as well.
+Nice and straight forward, isn't it? Yes it is! And it's mostly used for built-in subroutines but can be used for custom ones as well.
 
-Though what I did *not* know is this:
+Though, what I did *not* know is this:
 
 **If you use it for custom subroutines, you must declare them before usage.**
 
@@ -94,9 +96,9 @@ sub some_func() {
 some_func;
 ```
 
-If you do not, Perl will not be able to compile.
+If you don't, Perl will not be able to compile.
 
-The reason this is - and this is **my speculation** please correct me if I am wrong - that when a symbol like this is used, it checks
+The reason this is - and this is **my speculation**, please correct me, if I am wrong - that when a symbol like this is used, it checks
 somewhere if this is a known symbol. If it is, it is replaced by a subroutine call. If not -> you get the error that I was having.
 
 There is another syntax however, which may look much more familiar to most of you.
@@ -118,10 +120,12 @@ jumps to - or searches for - the declaration. I kid you not. *This was it.* I ad
 This was a proper head-meets-desk moment.
 
 Using the `some_func();` syntax, you can declare the function wherever you like in your file and Perl will find it. The only reason I found
-why this exists is literally *"because other languages do it like this as well..."* - yeah and other languages don't have a defined behaviour tree. 
+why all of this exists is literally *"because other languages do it like this as well..."* - yeah and other languages don't have a defined behaviour tree. 
 Or let you multiply a String with a Class. *You don't have to be like Lua or JavaScript now do you?*
 
 In all seriousness though, it may not seem like a big deal - and really, it isn't - but it's somehwat inconsistent in my opinion.
+
+And if you know me, I do like myself some consistency.
 
 ## Why I didn't catch this sooner
 
@@ -136,7 +140,7 @@ Thing with these tests I took inspiration from is, they use functionality that i
 You see, `os-autoinst-distri-opensuse` is not the only test component openQA uses. There is also `os-autoinst` which provides - amongst others - 
 a lot of libraries and shared functions for openQA to work. Which would be fine if that was documented. Which it isn't.
 
-Which brings us down a rabid hole about modularization and consolidation but that'd go to far for now.
+Which brings us down a rabid hole about modularization and consolidation but that'd go too far for now.
 
 I just wanted to make you all aware of some of the weird quirks you'll fine when doing Perl.
 
@@ -144,4 +148,6 @@ Thanks for reading, see you next time. :otter:
 
 ---
 
+<small>
 Background image by Wolfgang Hasselmann @ Unsplash
+<small>
