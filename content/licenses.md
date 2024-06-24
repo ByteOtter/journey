@@ -26,3 +26,9 @@ They were aquired through the following sources:
 - [Pexels](https://www.pexels.com)
 
 Note: I am not sponsored by, nor customer at the platforms listed above.
+
+---
+
+<small>
+Site background by [`I Bautista @ Pexels`](https://www.pexels.com/photo/two-otters-in-river-18522071/)
+</small>
