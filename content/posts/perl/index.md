@@ -98,7 +98,7 @@ some_func;
 
 If you don't, Perl will not be able to compile.
 
-The reason this is - and this is **my speculation**, please correct me, if I am wrong - that when a symbol like this is used, it checks
+The reason this is - and this is **my speculation**, please correct me if I am wrong - that when a symbol like this is used, it checks
 somewhere if this is a known symbol. If it is, it is replaced by a subroutine call. If not -> you get the error that I was having.
 
 There is another syntax however, which may look much more familiar to most of you.
@@ -140,7 +140,7 @@ Thing with these tests I took inspiration from is, they use functionality that i
 You see, `os-autoinst-distri-opensuse` is not the only test component openQA uses. There is also `os-autoinst` which provides - amongst others - 
 a lot of libraries and shared functions for openQA to work. Which would be fine if that was documented. Which it isn't.
 
-Which brings us down a rabid hole about modularization and consolidation but that'd go too far for now.
+Which brings us down a rabbit hole about modularization and consolidation but that'd go too far for now.
 
 I just wanted to make you all aware of some of the weird quirks you'll fine when doing Perl.
 
