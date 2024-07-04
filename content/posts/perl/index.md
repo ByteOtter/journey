@@ -57,7 +57,7 @@ The internet in the meantime has also been less than helpful - as it tends to be
 
 We read that darn error message so many times both in `openQA` but also when trying to compile the file manually when it dawned on us:
 
-It sounds like it cannot find thi `subroutines`!
+It sounds like it cannot find the `subroutines`!
 
 ## F u Perl
 
