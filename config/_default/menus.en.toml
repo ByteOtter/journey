@@ -15,10 +15,15 @@
  pageRef = "posts"
  weight = 10
 
- [[main]]
- name = "Projects"
- pageRef = "projects"
- weight = 10
+[[main]]
+name = "Inklings"
+pageRef = "posts/inklings/"
+weight = 10
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+weight = 10
 
 #[[main]]
 #  name = "Parent"
@@ -46,7 +51,6 @@
  parent = "Series"
  pageRef = "posts/series/linux-intro"
  weight = 10
-
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
