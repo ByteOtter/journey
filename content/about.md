@@ -9,7 +9,7 @@ showAuthor: false
 
 Hi, welcome to my little headspace!
 
-In case you do not know me that well, I am Chris, a 24 year old software developer apprentice who loves Open-Source Software and learning about tech.
+In case you do not know me that well, I am Chris, a 25 year old software developer apprentice who loves Open-Source Software and learning about tech.
 
 In this place I will update you, irregularly, on my life, ongoing projects, events I attended and my apprenticeship, or whatever else comes to mind.
 
