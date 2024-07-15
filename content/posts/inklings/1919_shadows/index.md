@@ -1,6 +1,8 @@
 ---
 title: "1919 - Shadows in the Dark"
 date: 2024-07-12T20:03:01+02:00
+series: ["1919"]
+series_order: 1
 draft: false
 heroStyle: background
 ---
@@ -79,9 +81,7 @@ The moonlight seemed powerless against the darkness which lay before me. I gripp
 
 *"Well,"*, I thought to myself, *"Can't be worse than thre trenches."*
 
-Then I steppedd into the void.
-
-
+Then, I steppedd into the void.
 
 ---
 
