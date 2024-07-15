@@ -1,5 +1,5 @@
 ---
-title: "1919 - Setting"
+title: "1919 - Shadows in the Dark"
 date: 2024-07-12T20:03:01+02:00
 draft: false
 heroStyle: background
