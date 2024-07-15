@@ -30,12 +30,36 @@ weight = 10
 #  weight = 20
 
 [[main]]
+ pre = "rust"
+ identifier = "nazara-project"
+ name = "The Nazara Project"
+ parent = "Projects"
+ pageRef = "projects/nazara-project/_index.md"
+ weight = 1
+
+[[main]]
+ identifier = "nazara"
+ name = "Nazara"
+ parent = "nazara-project"
+ pageRef = "projects/nazara-project/nazara/_index.md"
+ weight = 10
+
+[[main]]
+identifier = "thanix"
+name = "Thanix"
+parent = "nazara-project"
+pageRef = "projects/nazara-project/thanix/_index.md"
+weight = 10
+
+[[main]]
+ pre = "python"
  name = "The Otter Den"
  parent = "Projects"
  pageRef = "projects/otter_den"
  weight = 10
 
  [[main]]
+ pre = "python"
  name = "Nester"
  parent = "Projects"
  pageRef = "projects/nester"
