@@ -3,6 +3,7 @@ title: "A word about Perl..."
 date: 2024-05-17T20:00:03+02:00
 draft: false
 heroStyle: background
+tags: ['programming', 'perl']
 ---
 
 So, Perl ... Perl, Perl, Perl.

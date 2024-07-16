@@ -1,5 +1,6 @@
 ---
 title: "Series: Introduction to Linux"
+tags: ['Linux', 'Tutorials & Guides', 'series']
 description: "Introduction to Linux"
 cascade:
   showReadingTime: true

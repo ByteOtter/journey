@@ -5,6 +5,7 @@ series: ["1919"]
 series_order: 1
 draft: false
 heroStyle: background
+tags: ['inkling']
 ---
 
 **A cold night in London, October, 1919.**<br>

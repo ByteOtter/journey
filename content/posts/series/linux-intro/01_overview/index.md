@@ -3,6 +3,7 @@ title: "Linux 01 - A Overview"
 date: 2023-10-01T18:00:03+02:00
 series: ["Introduction to Linux"]
 series_order: 1
+tags: ['Linux', 'Tutorials & Guides', 'series']
 heroStyle: "background"
 draft: false
 ---

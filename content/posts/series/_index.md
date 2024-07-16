@@ -1,5 +1,6 @@
 ---
 title: "Series Section"
+tags: ['series']
 description: "My blog post series."
 cascade:
   showReadingTime: true

@@ -68,8 +68,8 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
   showTableOfContents = true
   # showRelatedContent = false
   # relatedContentLimit = 3
-  showTaxonomies = false
-  showAuthorsBadges = false
+  showTaxonomies = true 
+  showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
@@ -95,13 +95,13 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true 
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = false
-  cardView = false
+  cardView = true 
 
 [term]
   showHero = false

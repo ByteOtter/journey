@@ -2,6 +2,7 @@
 title: "The Otter Den"
 date: 2023-06-06T21:36:49+02:00
 draft: false
+tags: ['programming', 'projects', 'python', 'web']
 ---
 ## My first serious dabbles with coding
 
