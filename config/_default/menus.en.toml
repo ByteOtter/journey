@@ -83,7 +83,7 @@ weight = 10
 
 # [[subnavigation]]
 #  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
+#  pageRef = "tags/"
 #  weight = 10
 
 #[[subnavigation]]
