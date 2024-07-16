@@ -3,7 +3,7 @@ title: "Linux 02 - Installing a Linux Distribution"
 date: 2023-10-26T16:00:03+02:00
 series: ["Introduction to Linux"]
 series_order: 2
-tags: ['Linux', 'Tutorials & Guides', 'series']
+tags: ['Linux', 'Tutorials & Guides', 'Series']
 heroStyle: "background"
 draft: false
 ---

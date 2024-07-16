@@ -3,7 +3,7 @@ title: "Linux 03 - Software on Linux"
 date: 2023-11-27T23:03:03+02:00
 series: ["Introduction to Linux"]
 series_order: 3
-tags: ['Linux', 'Tutorials & Guides', 'series']
+tags: ['Linux', 'Tutorials & Guides', 'Series']
 heroStyle: "background"
 draft: false
 ---
