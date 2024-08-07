@@ -21,14 +21,14 @@ Lately though, I had to experiment with project specific configurations, as some
 projects I worked on required special configuration of things like the language server 
 or my editor's formatting. Things I did not want to change in a global config.
 
-For my work on [menix](https://github.com/menix-os) we used the [`.editoconfig`](https://editorconfig.org) 
+For my work on [menix](https://github.com/menix-os) we used the [`.editorconfig`](https://editorconfig.org) 
 format to specify tings like character sets and the styles and sizes of tabs we use. 
 This is actually really cool, as this allows you to set different formatting styles for differen 
 kind of code files. For example you want to use tabs consisting of 4 spaces in `C` code files, while 
 staying with a tab-character in your Makefile.
 
 While this is really cool and helpful to assert your desired code style for outside contributors, as 
-the `.editoconfig` file is respected by all major IDEs and texteditors I know of, it does not really 
+the `.editorconfig` file is respected by all major IDEs and texteditors I know of, it does not really 
 allow you to configure things like your LSP for example.
 
 This is usually done in the configuration of your editor or IDE.
