@@ -8,10 +8,10 @@ title = "ByteOtter"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/pride-otter.png"
-  # secondaryLogo = "img/pride-otter.png"
-  # description = "My awesome website"
-  copyright = "&copy; 2024 Christopher Hock aka ByteOtter"
+  logo = "img/logo.png"
+  secondaryLogo = "img/logo_bright.png"
+# description = "My awesome website"
+  copyright = "&copy; { year } Christopher Hock aka ByteOtter"
 
 [author]
   name = "ByteOtter"

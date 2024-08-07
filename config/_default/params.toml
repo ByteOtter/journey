@@ -16,7 +16,7 @@ mainSections = ["posts", "projects"]
 # robots = ""
 
 disableImageOptimization = true
-
+disableTextInHeader = true
 defaultBackgroundImage = "img/wallpaper.png" # used as default for background images
 defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images in all articles
 
