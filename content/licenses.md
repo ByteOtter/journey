@@ -27,6 +27,10 @@ They were aquired through the following sources:
 
 Note: I am not sponsored by, nor customer at the platforms listed above.
 
+# Logo
+
+The logo has been created by me using the Logo.com logo creator.
+
 ---
 
 <small>
