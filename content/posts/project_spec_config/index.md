@@ -117,6 +117,46 @@ project.
 But I could essentially put any kind of config for `LunarVim` in there. If I wanted to I could have it use a different colorscheme for 
 every project, or have certain plugins installed or activated.
 
+For example, how about swapping certain features of `rust-analyzer`?
+
+```lua
+-- .lvim-config.lua
+local lspconfig = require('lspconfig')
+
+lspconfig.rust_analyzer.setup {
+    settings = {
+        ["rust-analyzer"] = {
+            checkOnSave = {
+                command = "clippy", -- Use cargo clippy instead of cargo check
+            },
+            procMacro = {
+                enable = true, -- Enable procedural macros
+            },
+        },
+    },
+}
+```
+
+Or disabling certain diagnostics?
+
+```lua
+-- .lvim-config.lua
+local lspconfig = require('lspconfig')
+
+lspconfig.rust_analyzer.setup {
+    settings = {
+        ["rust-analyzer"] = {
+            diagnostics = {
+                enable = true,
+                disabled = {"unresolved-proc-macro"}
+            },
+        },
+    },
+}
+```
+
+Anything is possible, only limited by your `Lua` knowledge and your imagination.
+
 I admit, it's not a perfect solution (and probably horribly unsafe). For example, if I were to open `LunaVim` in a subdirectory of this 
 project I'd be out of luck. And also, it only applies to LunarVim - which is not really the most common `NeoVim` flavour.
 
