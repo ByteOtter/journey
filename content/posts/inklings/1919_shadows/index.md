@@ -105,4 +105,4 @@ Author's notes:
 - 1st Draft
 
 Background image: Avi Agarwal @ Unsplash
-<small>
+</small>
