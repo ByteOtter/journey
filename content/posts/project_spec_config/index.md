@@ -6,6 +6,11 @@ heroStyle: background
 tags: ['Programming', 'Tutorials & Guides']
 ---
 
+> Update 17-08-2024:
+>
+> Soo ... this is embarrassing. Apparently, it looks like this was possible all along
+> by simply adding a `rust-analyzer.json` file to the project root. :melting_face:
+
 When I start a new project, one of the first things I want to take care of is setting 
 up my environment and tooling.
 
