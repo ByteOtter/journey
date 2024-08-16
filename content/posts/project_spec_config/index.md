@@ -8,8 +8,9 @@ tags: ['Programming', 'Tutorials & Guides']
 
 > Update 17-08-2024:
 >
-> Soo ... this is embarrassing. Apparently, it looks like this was possible all along
-> by simply adding a `rust-analyzer.json` file to the project root. :melting_face:
+> Apparently `neovim` (which LunarVim is based upon) already has the functionality described here.
+> Check `:help exrc`. This uses `vim.secure.read()` to prompt you before sourcing untrusting files.
+> It checks upon startup for a `.nvim.lua` file and executes the config inside.
 
 When I start a new project, one of the first things I want to take care of is setting 
 up my environment and tooling.
