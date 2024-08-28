@@ -13,7 +13,7 @@ title = "ByteOtter"
 # description = "My awesome website"
   copyright = "&copy; { year } Christopher Hock aka ByteOtter"
 
-[author]
+[params.author]
   name = "ByteOtter"
   image = "img/otter.png"
   headline = "I'm only an Otter"
