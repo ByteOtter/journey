@@ -1,7 +1,7 @@
 ---
 title: "Happy Trans Awareness Month!"
 date: 2024-11-13T18:00:00+02:00
-draft: true
+draft: false
 heroStyle: background
 tags: ['social', 'pride']
 showAuthor: false
