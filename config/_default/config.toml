@@ -17,6 +17,10 @@ buildFuture = false
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[author]
+baseURL = "/authors/"
+taxonomyName = "authors"
+
 [imaging]
   anchor = 'Center'
 
