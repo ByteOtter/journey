@@ -75,6 +75,11 @@ weight = 10
  parent = "Series"
  pageRef = "posts/series/linux-intro"
  weight = 10
+
+[[main]]
+name = "Hire Me!"
+pageRef = "resume"
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
@@ -121,6 +126,11 @@ weight = 10
 name = "Licenses"
 pageRef = "licenses"
 weight = 10
+
+[[footer]]
+name = "Hire Me!"
+pageRef = "resume"
+weight = 20
 
 # [[footer]]
 #   name = "Categories"
