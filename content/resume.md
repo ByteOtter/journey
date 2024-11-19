@@ -20,6 +20,16 @@ To this end I am currently in the process of learning Rust and C.
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ByteOtter&theme=transparent" />
 
+{{< button href="/files/Tiara_Lena_Hock-Resume.pdf" target="_blank" rel="noopener noreferrer">}}
+{{< icon "download" >}}
+Get my Resume
+{{< /button >}}
+
+{{< button href="https://github.com/ByteOtter" target="_self" >}}
+{{< icon "github" >}}
+Visit me on GitHub!
+{{< /button >}}
+
 ### Current projects:
 
 |Name (link)|Description|Position|
@@ -28,6 +38,9 @@ To this end I am currently in the process of learning Rust and C.
 |[![Static Badge](https://img.shields.io/badge/cshy-cshy?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/ByteOtter/cshy)|A file package format built for learning purposes only.|Project Owner/Lead Developer|
 |[![Static Badge](https://img.shields.io/badge/%20isotest-isotest?style=flat-square&logo=rust&logoColor=red&color=black)](https://github.com/os-autoinst/isotest-ng)|Re-implementation of the `isotovideo` module of `openQA`.|Initiator/Contributor|
 |[![Static Badge](https://img.shields.io/badge/menix-menix?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/menix-os/menix)|A minimal and expandable Unix-like operating system|Maintainer|
+
+{{< github repo="The-Nazara-Project/Nazara" >}}
+{{< github repo="ByteOtter/cshy" >}}
 
 ### My experience:
 
