@@ -1,9 +1,7 @@
 ---
-title: "The Inklings"
+title: "Welcome to my Inklings!"
 description: "Story scraps and scribbles from a sort-of hobby author"
 ---
-
-# Welcome to the Inklings!
 
 As you know, I am sort-of (posing as) an amateur author, and
 scribble some stories from time to time.
