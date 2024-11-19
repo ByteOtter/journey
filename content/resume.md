@@ -20,7 +20,7 @@ To this end I am currently in the process of learning Rust and C.
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ByteOtter&theme=transparent" />
 
-{{< button href="/files/Tiara_Lena_Hock-Resume.pdf" target="_blank" rel="noopener noreferrer">}}
+{{< button href="/files/Christopher_Hock-Resume.pdf" target="_blank" rel="noopener noreferrer">}}
 {{< icon "download" >}}
 Get my Resume
 {{< /button >}}
