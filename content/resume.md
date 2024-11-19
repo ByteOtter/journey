@@ -39,7 +39,10 @@ Visit me on GitHub!
 |[![Static Badge](https://img.shields.io/badge/%20isotest-isotest?style=flat-square&logo=rust&logoColor=red&color=black)](https://github.com/os-autoinst/isotest-ng)|Re-implementation of the `isotovideo` module of `openQA`.|Initiator/Contributor|
 |[![Static Badge](https://img.shields.io/badge/menix-menix?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/menix-os/menix)|A minimal and expandable Unix-like operating system|Maintainer|
 
+### Pinned Projects
+
 {{< github repo="The-Nazara-Project/Nazara" >}}
+{{< github repo="The-Nazara-Project/Thanix" >}}
 {{< github repo="ByteOtter/cshy" >}}
 
 ### My experience:
