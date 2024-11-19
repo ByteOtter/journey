@@ -9,21 +9,23 @@ authors:
     - "tiara"
 ---
 
-> *NOTE*
->
-> This post is meant to uplift, but I understand that sometimes it might bring up tough emotions. It certainly did when I wrote it.
-> <br>If you're feeling overwhelmed, please reach out for support. You are never alone.
->
->US/CAN:
-> * [Trans Lifeline](https://translifeline.org) (US)(877)565-8860 (CAN)(877)330-6366
-> * [NAMI](https://nami.org/Advocacy) (US)988
->
-> UK:
-> * [transEDU](https://www.trans.ac.uk/ResourcesInformation/Helplines/tabid/7257/Default.aspx)
-> * [Switchboard LGBT+ Helpline](https://www.trans.ac.uk/LinkClick.aspx?link=https%3a%2f%2fswitchboard.lgbt%2f&tabid=7257&portalid=88&mid=14178) (UK)0300 330 0630
->
-> DE:
-> * [VDGE e.V](https://www.vdge.org/)
+{{< alert icon="comment" >}}
+**NOTE**
+
+This post is meant to uplift, but I understand that sometimes it might bring up tough emotions. It certainly did when I wrote it.
+<br>If you're feeling overwhelmed, please reach out for support. You are never alone.
+
+US/CAN:
+* [Trans Lifeline](https://translifeline.org) (US)(877)565-8860 (CAN)(877)330-6366
+* [NAMI](https://nami.org/Advocacy) (US)988
+
+UK:
+* [transEDU](https://www.trans.ac.uk/ResourcesInformation/Helplines/tabid/7257/Default.aspx)
+* [Switchboard LGBT+ Helpline](https://www.trans.ac.uk/LinkClick.aspx?link=https%3a%2f%2fswitchboard.lgbt%2f&tabid=7257&portalid=88&mid=14178) (UK)0300 330 0630
+
+DE:
+* [VDGE e.V](https://www.vdge.org/)
+{{< /alert >}}
 
 
 
