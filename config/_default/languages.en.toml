@@ -11,7 +11,7 @@ title = "ByteOtter"
   logo = "img/logo.png"
   secondaryLogo = "img/logo_bright.png"
 # description = "My awesome website"
-  copyright = "&copy; { year } Christopher Hock aka ByteOtter"
+  copyright = "&copy; { year } Tiara Hock aka ByteOtter"
 
 [params.author]
   name = "ByteOtter"
@@ -19,7 +19,7 @@ title = "ByteOtter"
   headline = "I'm only an Otter"
   bio = "*No I am not defending Linux superiority, I am stating the fucking obvious!*"
   links = [
-    { email = "mailto:byteotter@gmail.com" },
+    { email = "mailto:tiara.dev@proton.me" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -32,7 +32,7 @@ title = "ByteOtter"
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
     { github = "https://github.com/ByteOtter" },
-    { gitlab = "https://invent.kde.org/chrishock" },
+#     { gitlab = "https://invent.kde.org/chrishock" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
 #     { instagram = "https://instagram.com/username" },

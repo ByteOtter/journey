@@ -10,11 +10,11 @@ showAuthor: false
 heroStyle: background
 ---
 
-## Hey, I'm Chris aka ByteOtter
+## Hey, I'm Tia aka ByteOtter
 
 I'm a software developer trainee at SUSE Software Solutions located in Germany.
 
-I started programming with Python and a bit of Java and am most comfortable using the former.
+I started programming in Uni mostly using Java and Python, but am now mostly using Rust and Python.
 My interests currently move in the direction of more hardware related programming topics.
 
 To this end I am currently in the process of learning Rust and C.
@@ -23,7 +23,7 @@ To this end I am currently in the process of learning Rust and C.
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ByteOtter&theme=transparent" />
 
-{{< button href="/files/Christopher_Hock-Resume.pdf" target="_blank" rel="noopener noreferrer">}}
+{{< button href="/files/Tiara_Lena_Hock-Resume.pdf" target="_blank" rel="noopener noreferrer">}}
 {{< icon "download" >}}
 Get my Resume
 {{< /button >}}
