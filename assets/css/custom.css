@@ -99,6 +99,15 @@
   }
 }
 
+@keyframes slideDown {
+  0% {
+    top: 20%;
+}
+  100% {
+    top: -100%;
+  }
+}
+
 .popup-content h2 {
   margin-top: 5px;
   text-align: center;

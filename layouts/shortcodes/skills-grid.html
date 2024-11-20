@@ -11,7 +11,7 @@
     <h3>Rust</h3>
     <p>Effiziente und sichere Sprache, perfekt für Systemprogrammierung.</p>
   </div>
-  <!-- Weitere Kacheln -->
+  <!-- TODO: Add more cards here -->
 </div>
 
 <!--Python Popup-->
@@ -87,32 +87,43 @@
   </div>
 </div>
 
-<!-- Weitere Pop-ups -->
+<!--TODO more popups-->
 <script>
 function openPopup(skill) {
   const popup = document.getElementById(`popup-${skill}`);
   if (popup) {
     popup.style.display = 'flex';
+    popup.style.animation = 'fadeIn 0.2s ease, slideUp 0.3s ease-out forwards';
   }
 }
 
+// Close a pop-up
 function closePopup(skill, event) {
-  // Prevents the pop-up from being closed while clicking inside of it
+  // Prevent the popup from being closed while clicking inside of it.
   if (event) {
     event.stopPropagation();
   }
   
   const popup = document.getElementById(`popup-${skill}`);
   if (popup) {
-    popup.style.display = 'none'; // Hide popup
+    // Apply closing animation
+    popup.style.animation = 'fadeIn 0.2s ease, slideDown 0.3s ease-out forwards';
+    setTimeout(() => {
+      popup.style.display = 'none'; // Hide popup after the animation
+    }, 300);
   }
 }
 
+// Event listener for catching esc presses
 document.addEventListener('keydown', function(event) {
   if (event.key === "Escape") {
+    // Close all visibile popups
     const popups = document.querySelectorAll('.popup');
-    popups.forEach(popup =>  {
-      popup.style.display = 'none';
+    popups.forEach(popup => {
+      popup.style.animation = 'fadeIn 0.2s ease, slideDown 0.3s ease-out forwards';
+      setTimeout(() => {
+        popup.style.display = 'none';
+      }, 300);
     });
   }
 });
