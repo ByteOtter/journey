@@ -1,0 +1,110 @@
+<div class="skills-grid">
+  <div class="skill-card" onclick="openPopup('python')">
+    {{ $pythonIcon := resources.Get "icons/python.svg" }}
+    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Icon">
+    <h3>Python</h3>
+    <p>Eine vielseitige Sprache für Webentwicklung, Data Science und KI.</p>
+  </div>
+  <div class="skill-card" onclick="openPopup('rust')">
+    {{ $rustIcon := resources.Get "icons/rust.svg" }}
+    <img src="{{ $rustIcon.RelPermalink }}" alt="Rust Logo" />
+    <h3>Rust</h3>
+    <p>Effiziente und sichere Sprache, perfekt für Systemprogrammierung.</p>
+  </div>
+  <!-- Weitere Kacheln -->
+</div>
+
+<!--Python Popup-->
+<div class="popup" id="popup-python" onclick="closePopup('python', event)">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closePopup('python', event)">&times;</span>
+    <h2>
+      <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Icon" fill="#ff8a00"> 
+      Python
+    </h2>
+    <div class="popup-body">
+      <div>
+        <h4>Stärken</h4>
+        <ul>
+          <li>Große Community</li>
+          <li>Einfach zu lernen</li>
+          <li>Vielseitige Einsatzmöglichkeiten</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Schwächen</h4>
+         <ul>
+          <li>Relativ langsam</li>
+          <li>Nicht ideal für Mobilanwendungen</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Projekte</h4>
+        <ul>
+          <li>Data Science</li>
+          <li>Webentwicklung</li>
+          <li>Künstliche Intelligenz</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Rust Popup-->
+<div class="popup" id="popup-rust" onclick="closePopup('rust', event)">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closePopup('rust', event)">&times;</span>
+    <h2>
+    {{ $rustIcon := resources.Get "icons/rust.svg" }}
+    <img src="{{ $rustIcon.RelPermalink }}" alt="Rust Logo" />
+      Rust
+    </h2>
+    <div class="popup-body">
+      <div>
+        <h4>Stärken</h4>
+        <ul>
+          <li>Große Community</li>
+          <li>Einfach zu lernen</li>
+          <li>Vielseitige Einsatzmöglichkeiten</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Schwächen</h4>
+        <ul>
+          <li>Relativ langsam</li>
+          <li>Nicht ideal für Mobilanwendungen</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Projekte</h4>
+        <ul>
+          <li>Data Science</li>
+          <li>Webentwicklung</li>
+          <li>Künstliche Intelligenz</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Weitere Pop-ups -->
+<script>
+function openPopup(skill) {
+  const popup = document.getElementById(`popup-${skill}`);
+  if (popup) {
+    popup.style.display = 'flex'; // Popup sichtbar machen
+  }
+}
+
+function closePopup(skill, event) {
+  // Verhindert, dass das Pop-up geschlossen wird, wenn im inneren Bereich (popup-content) geklickt wird
+  if (event) {
+    event.stopPropagation();  // Verhindert das Auslösen von `onclick` des äußeren Pop-ups
+  }
+  
+  const popup = document.getElementById(`popup-${skill}`);
+  if (popup) {
+    popup.style.display = 'none'; // Popup verstecken
+  }
+}
+</script>
