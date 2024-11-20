@@ -52,14 +52,6 @@ Visit me on GitHub!
 
 {{< skills-grid >}}
 
-#### Languages (Sorted by Experience)
-
-![Python](https://img.shields.io/badge/python--brightgreen?style=for-the-badge&logo=python&logoColor=brightgreen)
-![Rust](https://img.shields.io/badge/rust--orange?style=for-the-badge&logo=rust&logoColor=orange)
-![CS](https://img.shields.io/badge/c%23--green?style=for-the-badge&logo=csharp&logoColor=green)
-![Ruby](https://img.shields.io/badge/ruby--red?style=for-the-badge&logo=ruby&logoColor=red)
-
-
 #### QA & Testing:
 
 ![PyTest](https://img.shields.io/badge/pytest--brightgreen?style=for-the-badge&logo=pytest&logoColor=brightgreen)
@@ -78,8 +70,5 @@ Visit me on GitHub!
 ![Docker](https://img.shields.io/badge/docker--cyan?style=for-the-badge&logo=docker&logoColor=cyan)
 ![Git](https://img.shields.io/badge/Git--orange?style=for-the-badge&logo=git&logoColor=orange)
 ![GitHub CI/CD](https://img.shields.io/badge/github_CI\/CD--white?style=for-the-badge&logo=githubactions&logoColor=white)
-
-
-You can reach me via Matrix [@chris:kde.org](https://matrix.to/#/@chris:kde.org)
 
 See you around!
