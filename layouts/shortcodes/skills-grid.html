@@ -1,7 +1,7 @@
 <div class="skills-grid">
   <div class="skill-card" onclick="openPopup('python')">
     {{ $pythonIcon := resources.Get "icons/python.svg" }}
-    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Icon">
+    <img src="{{ $pythonIcon.RelPermalink }}" alt="Python Icon" fill="currentColor">
     <h3>Python</h3>
     <p>Eine vielseitige Sprache für Webentwicklung, Data Science und KI.</p>
   </div>

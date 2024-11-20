@@ -101,7 +101,8 @@
 }
 
 .popup-content h2 {
-  margin-top: 0;
+  margin-top: 5;
+  text-align: center;
 }
 
 .popup-body {
