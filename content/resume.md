@@ -50,6 +50,8 @@ Visit me on GitHub!
 
 ### My experience:
 
+{{< skills-grid >}}
+
 #### Languages (Sorted by Experience)
 
 ![Python](https://img.shields.io/badge/python--brightgreen?style=for-the-badge&logo=python&logoColor=brightgreen)
