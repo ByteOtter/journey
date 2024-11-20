@@ -12,7 +12,7 @@ heroStyle: background
 
 ## Hey, I'm Tia aka ByteOtter
 
-I'm a software developer trainee at SUSE Software Solutions located in Germany.
+I'm a software engineering apprentice at SUSE Software Solutions located in Germany.
 
 I started programming in Uni mostly using Java and Python, but am now mostly using Rust and Python.
 My interests currently move in the direction of more hardware related programming topics.
