@@ -32,6 +32,9 @@
 }
 
 .skill-card img {
+  pointer-events: none;
+  transition: none;
+  filter: none;
   max-height: 50px;
   margin-bottom: 10px;
 }
