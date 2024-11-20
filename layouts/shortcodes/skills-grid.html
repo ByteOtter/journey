@@ -3,13 +3,31 @@
     {{ $pythonIcon := resources.Get "icons/python.svg" }}
     <img src="{{ $pythonIcon.RelPermalink }}" alt="Python Icon" fill="currentColor">
     <h3>Python</h3>
-    <p>Eine vielseitige Sprache für Webentwicklung, Data Science und KI.</p>
+    <p>Robust and multi-use scripting language for automation and web-development.</p>
   </div>
   <div class="skill-card" onclick="openPopup('rust')">
     {{ $rustIcon := resources.Get "icons/rust.svg" }}
     <img src="{{ $rustIcon.RelPermalink }}" alt="Rust Logo" />
     <h3>Rust</h3>
-    <p>Effiziente und sichere Sprache, perfekt für Systemprogrammierung.</p>
+    <p>Efficient and memory-safe programming language. Perfect for systems development.</p>
+  </div>
+  <div class="skill-card" onclick="openPopup('bash')">
+    {{ $bashIcon := resources.Get "icons/bash.svg" }}
+    <img src="{{ $bashIcon.RelPermalink }}" alt="The GNU Bash Logo" />
+    <h3>Bash</h3>
+    <p>The fundamental shell scripting language.</p>
+  </div>
+  <div class="skill-card" onclick="openPopup('ci')">
+    {{ $actionsIcon := resources.Get "icons/githubactions.svg" }}
+    <img src="{{ $actionsIcon.RelPermalink }}" alt="Github Actions Logo" />
+    <h3>CI/CD</h3>
+    <p>Automating the development process.</p>
+  </div>
+  <div class="skill-card" onclick="openPopup('docker')">
+    {{ $dockerIcon := resources.Get "icons/docker.svg" }}
+    <img src="{{ $dockerIcon.RelPermalink }}" alt="Github Actions Logo" />
+    <h3>Docker</h3>
+    <p>Process Containerization.</p>
   </div>
   <!-- TODO: Add more cards here -->
 </div>
@@ -24,26 +42,34 @@
     </h2>
     <div class="popup-body">
       <div>
-        <h4>Stärken</h4>
+        <h4>Familiar Concepts</h4>
         <ul>
-          <li>Große Community</li>
-          <li>Einfach zu lernen</li>
-          <li>Vielseitige Einsatzmöglichkeiten</li>
+          <li>Object-oriented and functional paradigms of Python</li>
+          <li>File operations</li>
+          <li>API operations</li>
+          <li>Creating a RESTful API</li>
+          <li>Custom function decorators</li>
+          <li>CLI frontend development</li>
         </ul>
       </div>
       <div>
-        <h4>Schwächen</h4>
+        <h4>Used Tooling</h4>
          <ul>
-          <li>Relativ langsam</li>
-          <li>Nicht ideal für Mobilanwendungen</li>
+          <li>Flask web application framework</li>
+          <li>Pytest test automation framework</li>
+          <li>Sphinx documentation framework</li>
+          <li>Click CLI argument parser framework</li>
+          <li>PyPi package publishing workflow</li>
+          <li>Setuptools build system</li>
+          <li>Virtual environments</li>
         </ul>
       </div>
       <div>
-        <h4>Projekte</h4>
+        <h4>Projects</h4>
         <ul>
-          <li>Data Science</li>
-          <li>Webentwicklung</li>
-          <li>Künstliche Intelligenz</li>
+          <li><a href="https://github.com/cobbler/cobbler-tftp">cobbler-tftp (stateless TFTP-Server)</a></li>
+          <li><a href="https://github.com/ByteOtter/nester">Nester (CLI-application)</li>
+          <li><a href="https://github.com/ByteOtter/OtterDen">The Otter Den (web blog application)</a></li>
         </ul>
       </div>
     </div>
@@ -61,31 +87,123 @@
     </h2>
     <div class="popup-body">
       <div>
-        <h4>Stärken</h4>
+        <h4>Familiar Concepts</h4>
         <ul>
-          <li>Große Community</li>
-          <li>Einfach zu lernen</li>
-          <li>Vielseitige Einsatzmöglichkeiten</li>
+          <li>Rust's Ownership system</li>
+          <li>API operations</li>
+          <li>File operations</li>
+          <li>CLI frontend development</li>
+          <li>crates.io publishing workflow</li>
         </ul>
       </div>
       <div>
-        <h4>Schwächen</h4>
+        <h4>Used Tooling</h4>
         <ul>
-          <li>Relativ langsam</li>
-          <li>Nicht ideal für Mobilanwendungen</li>
+          <li>Clap CLI argument parsing framework</li>
+          <li>Reqwest API operations framework</li>
+          <li>Tokio async programming framework</li>
+          <li>Cargo's integrated tooling for documentation, testing and publishing</li>
         </ul>
       </div>
       <div>
-        <h4>Projekte</h4>
+        <h4>Projects</h4>
         <ul>
-          <li>Data Science</li>
-          <li>Webentwicklung</li>
-          <li>Künstliche Intelligenz</li>
+          <li><a href="https://github.com/The-Nazara-Project/">The Nazara Project</a></li>
+          <li><a href="https://github.com/os-autoinst/isotest-ng/">isotest-ng</a></li>
+          <li><a href="https://github.com/ByteOtter/nuFAT">nuFAT</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
+
+<!--Bash Popup-->
+<div class="popup" id="popup-bash" onclick="closePopup('bash', event)">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closePopup('bash', event)">&times;</span>
+    <h2>
+    <img src="{{ $bashIcon.RelPermalink }}" alt="The GNU Bash Logo" />
+      Bash
+    </h2>
+    <div class="popup-body">
+      <div>
+        <h4>Familiar Concepts</h4>
+        <ul>
+          <li>File operations</li>
+          <li>CLI frontend development</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Used For</h4>
+        Minor automation tasks like batch renaming files, changing file permissions, etc.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--CI/CD Popup-->
+<div class="popup" id="popup-ci" onclick="closePopup('ci', event)">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closePopup('ci', event)">&times;</span>
+    <h2>
+      <img src="{{ $actionsIcon.RelPermalink }}" alt="The GitHub actions logo" />
+      CI/CD
+    </h2>
+    <div class="popup-body">
+      <div>
+        <h4>Familiar Concepts</h4>
+        <ul>
+          <li>Automated test execution and status reporting</li>
+          <li>Automated code formatting and linting</li>
+          <li>Using protection rules to prevent commits violating protocol</li>
+          <li>Using GitHub's new issue mask templates to streamline error reporting</li>
+          <li>Automating build process for documentation and code</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Used Tooling</h4>
+        <ul>
+          <li>GitHub actions</li>
+          <li>Custom pre-commit hooks for contributors</li>
+          <li>Common editor config files like .editorconfig</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Docker Popup-->
+<div class="popup" id="popup-docker" onclick="closePopup('docker', event)">
+  <div class="popup-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closePopup('docker', event)">&times;</span>
+    <h2>
+      <img src="{{ $dockerIcon.RelPermalink }}" alt="The Docker icon" />
+      Docker
+    </h2>
+    <div class="popup-body">
+      <div>
+        <h4>Familiar Concepts</h4>
+        <ul>
+          <li>Containerizing smaller standalone applications</li>
+          <li>Executing and managing containers manually</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Used Tooling</h4>
+        <ul>
+          <li>Docker and Docker-Compose</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Used For</h4>
+        <ul>
+          <li>Managing a originally Windows-focused .NET development environment on Linux via Docker containers including databases and networks.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--TODO more popups-->
 <script>
