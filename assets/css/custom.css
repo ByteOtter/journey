@@ -79,7 +79,6 @@
 .popup-content img {
   height: 100px;
   margin-bottom: 10px;
-  margin-top: 10px;
 }
 
 @keyframes fadeIn {
@@ -101,7 +100,7 @@
 }
 
 .popup-content h2 {
-  margin-top: 5;
+  margin-top: 5px;
   text-align: center;
 }
 

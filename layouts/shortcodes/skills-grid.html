@@ -19,7 +19,7 @@
   <div class="popup-content" onclick="event.stopPropagation()">
     <span class="close" onclick="closePopup('python', event)">&times;</span>
     <h2>
-      <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Icon" fill="#ff8a00"> 
+      <img src="{{ $pythonIcon.RelPermalink }}" alt="Python Icon" fill="#ff8a00"> 
       Python
     </h2>
     <div class="popup-body">
@@ -92,19 +92,19 @@
 function openPopup(skill) {
   const popup = document.getElementById(`popup-${skill}`);
   if (popup) {
-    popup.style.display = 'flex'; // Popup sichtbar machen
+    popup.style.display = 'flex';
   }
 }
 
 function closePopup(skill, event) {
-  // Verhindert, dass das Pop-up geschlossen wird, wenn im inneren Bereich (popup-content) geklickt wird
+  // Prevents the pop-up from being closed while clicking inside of it
   if (event) {
-    event.stopPropagation();  // Verhindert das Auslösen von `onclick` des äußeren Pop-ups
+    event.stopPropagation();
   }
   
   const popup = document.getElementById(`popup-${skill}`);
   if (popup) {
-    popup.style.display = 'none'; // Popup verstecken
+    popup.style.display = 'none'; // Hide popup
   }
 }
 </script>
