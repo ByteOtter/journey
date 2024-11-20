@@ -3,8 +3,11 @@ title: "My Experience"
 date: 2024-11-19T10:39:13+02:00
 draft: false
 showtableOfContents: false
-heroStyle: background
+showReadingtime: false
+showWordcount: false
+showDate: false
 showAuthor: false
+heroStyle: background
 ---
 
 ## Hey, I'm Chris aka ByteOtter
