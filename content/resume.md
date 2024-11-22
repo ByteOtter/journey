@@ -65,10 +65,4 @@ Visit me on GitHub!
 ![OpenBuildService](https://img.shields.io/badge/open_build_service--green?style=for-the-badge)
 ![Make](https://img.shields.io/badge/make--red?style=for-the-badge&logo=make&logoColor=red)
 
-#### Other technologies:
-
-![Docker](https://img.shields.io/badge/docker--cyan?style=for-the-badge&logo=docker&logoColor=cyan)
-![Git](https://img.shields.io/badge/Git--orange?style=for-the-badge&logo=git&logoColor=orange)
-![GitHub CI/CD](https://img.shields.io/badge/github_CI\/CD--white?style=for-the-badge&logo=githubactions&logoColor=white)
-
 See you around!
