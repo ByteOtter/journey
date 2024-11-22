@@ -151,4 +151,102 @@
 .popup .close:hover {
   color: #555;
 }
+/* END SKILL POPUP */
+
+/* BEGIN CONTENT WARNING */
+
+/* Popup Styles */
+.content-warning-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.content-warning-container {
+    background: #4b2c5e;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+/* Animation for flying popup */
+.fly-up {
+    transform: translateY(-100vh);
+    opacity: 0;
+}
+
+/* Icon Styles */
+.content-warning-icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Text Styles */
+.content-warning-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #d1c4e9;
+}
+
+/* Buttons Styles */
+.content-warning-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.content-warning-button-primary {
+    background: #7e57c2;
+    color: #f3e5f5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.content-warning-button-primary:hover {
+    opacity: 0.85;
+}
+
+.content-warning-link {
+    text-decoration: none;
+}
+
+.content-warning-button-secondary {
+    background: transparent;
+    color: #d1c4e9;
+    border: 2px solid #d1c4e9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.content-warning-button-secondary:hover {
+    color: #4b2c5e;
+    background: #d1c4e9;
+    border-color: #d1c4e9;
+}
 

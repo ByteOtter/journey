@@ -1,0 +1,47 @@
+<div id="content-warning-popup" class="content-warning-popup">
+    <div class="content-warning-container">
+        <!-- Icon -->
+        <div class="content-warning-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="60" height="60">
+                <path d="M1 21h22L12 2 1 21z"></path>
+                <circle cx="12" cy="16" r="1.5" fill="#000"></circle>
+                <path d="M12 10v4" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </div>
+        <!-- Warning Message -->
+        <p class="content-warning-text">
+            {{ .Get 0 }}
+        </p>
+        <!-- Buttons -->
+        <div class="content-warning-buttons">
+            <button id="content-warning-close" class="content-warning-button-primary">
+                I understood. Let me read.
+            </button>
+            <a href="/" class="content-warning-link">
+                <button class="content-warning-button-secondary">
+                    Please take me back.
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("content-warning-popup");
+    const closeBtn = document.getElementById("content-warning-close");
+
+    // Show the popup
+    popup.style.display = "flex";
+
+    closeBtn.addEventListener("click", function () {
+        // Add flying animation to the entire popup
+        popup.classList.add("fly-up");
+        // Remove the popup after the animation
+        setTimeout(() => {
+            popup.style.display = "none";
+        }, 1000);
+    });
+});
+</script>
+
