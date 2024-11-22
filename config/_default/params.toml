@@ -72,7 +72,7 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
   showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
-  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  sharingLinks = [ "linkedin", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
   showHero = true
