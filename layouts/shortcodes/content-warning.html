@@ -14,14 +14,18 @@
         </p>
         <!-- Buttons -->
         <div class="content-warning-buttons">
-            <button id="content-warning-close" class="content-warning-button-primary">
-                I understood. Let me read.
-            </button>
-            <a href="/" class="content-warning-link">
+            <a id="content-warning-back-link" href="/" class="content-warning-link">
                 <button class="content-warning-button-secondary">
                     Please take me back.
+                    {{ $qicon := resources.Get "icons/iconq.svg" }}
+                    <img src="{{ $qicon.RelPermalink }}" alt="An icon of the letter q on the keyboard" class="button-icon" style="bottom: -25px; right: 5px; width: 25px; height: 25px;"> 
                 </button>
             </a>
+            <button id="content-warning-close" class="content-warning-button-primary">
+                I understood. Let me read.
+                {{ $enterIcon := resources.Get "icons/icon-enter.svg" }}
+                <img src="{{ $enterIcon.RelPermalink }}" alt="An enter button icon" class="button-icon" style="bottom: -32px; right: 5px;" fill="currentColor">
+            </button>
         </div>
     </div>
 </div>
@@ -30,17 +34,34 @@
 document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("content-warning-popup");
     const closeBtn = document.getElementById("content-warning-close");
+    const backLink = document.getElementById("content-warning-back-link");
 
     // Show the popup
     popup.style.display = "flex";
 
+    // Close the popup when the "I understood" button is clicked
     closeBtn.addEventListener("click", function () {
-        // Add flying animation to the entire popup
         popup.classList.add("fly-up");
-        // Remove the popup after the animation
         setTimeout(() => {
             popup.style.display = "none";
         }, 1000);
+    });
+
+    // Navigate to the homepage when the "Please take me back" link is clicked
+    backLink.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = "/"; // Navigate to homepage
+    });
+
+    // Add key event listeners
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "q") {
+            // Simulate clicking the "I understood" button
+            window.location.href = "/";
+        } else if (event.key === "Enter") {
+            // Simulate clicking the "Please take me back" button
+            closeBtn.click();
+        }
     });
 });
 </script>
