@@ -6,7 +6,7 @@ draft: false
 ## Hello World!
 
 Hello world! Welcome to my blog, where I'll be sharing my experiences and insights as I embark on an exciting journey into the world of open source software and software development. <br>
-My name is Chris, I am 24 years old and passionate about technology, open source software, gaming, and martial arts.
+My name is Tiara, I am 24 years old and passionate about technology, open source software, gaming, and martial arts.
 
 My fascination with open source began during my university days when I was introduced to the power of collaborative software development. The idea that a group of individuals from all around the world could come together to create amazing software for everyone to use truly captivated me. Since then, I've been hooked on the principles of transparency, community, and innovation that define the open source movement.
 

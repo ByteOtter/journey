@@ -13,7 +13,7 @@ draft: false
 At the same time it is the first project that I entirely built from scratch and is actively maintained by me.
 
 Basically it is a command-line tool which can create a full project directory tree for a programming project when given a language and a project name.
-Now, you may say *"but Chris, my IDE can do that just fine!"* then I will tell you *"but I like to work from the terminal!"*<br>
+Now, you may say *"but Tiara, my IDE can do that just fine!"* then I will tell you *"but I like to work from the terminal!"*<br>
 Let me tell you how we got here ...
 
 ## An idea born through pain
