@@ -154,7 +154,6 @@
 /* END SKILL POPUP */
 
 /* BEGIN CONTENT WARNING */
-
 /* Popup Styles */
 .content-warning-popup {
     display: none;
@@ -182,6 +181,10 @@
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     position: relative;
+}
+
+.content-warning-container h2 {
+  margin-top: 5px;
 }
 
 /* Animation for flying popup */

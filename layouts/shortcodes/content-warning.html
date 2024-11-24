@@ -1,5 +1,7 @@
 <div id="content-warning-popup" class="content-warning-popup">
     <div class="content-warning-container">
+        <!-- Headline -->
+        <h2>{{ .Get 0 }}</h2>
         <!-- Icon -->
         <div class="content-warning-icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="60" height="60">
@@ -10,7 +12,11 @@
         </div>
         <!-- Warning Message -->
         <p class="content-warning-text">
-            {{ .Get 0 }}
+            {{ .Get 1 }}
+        </p>
+        <p>
+          <!--Content warning list (optional)-->
+          {{ .Get 2 }}
         </p>
         <!-- Buttons -->
         <div class="content-warning-buttons">

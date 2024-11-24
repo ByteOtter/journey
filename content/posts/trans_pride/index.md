@@ -9,7 +9,7 @@ authors:
     - "tiara"
 ---
 
-{{< content-warning "Attention. This post may bring up tough emotions. Please, take care of yourself." >}}
+{{< content-warning "Attention" "This post may bring up tough emotions. Please, take care of yourself." >}}
 
 {{< alert icon="comment" >}}
 **NOTE**
