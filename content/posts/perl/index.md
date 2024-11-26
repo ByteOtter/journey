@@ -151,4 +151,4 @@ Thanks for reading, see you next time. :otter:
 
 <small>
 Background image by Wolfgang Hasselmann @ Unsplash
-<small>
+</small>
