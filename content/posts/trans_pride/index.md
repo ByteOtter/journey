@@ -3,10 +3,7 @@ title: "Happy Trans Awareness Month!"
 date: 2024-11-13T18:00:00+02:00
 draft: false
 heroStyle: background
-tags: ['social', 'pride']
-showAuthor: false
-authors:
-    - "tiara"
+tags: ['blog', 'social', 'pride']
 ---
 
 {{< content-warning "Attention" "This post may bring up tough emotions. Please, take care of yourself." >}}
