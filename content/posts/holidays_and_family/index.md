@@ -14,7 +14,7 @@ Ready? -- Nice.
 
 It's this time of year again, huh? The holidays are upon us. For many people, this means cozy lights, festive music and closeness to their loved ones.
 But for a lot of us queer and trans* people -- especially the ones who are not out yet -- it also comes with stress, anxiety, tension and sometimes outright dread.
-I feel the same.
+It's completely understandable if you feel this way. I feel the same, to be honest.
 
 Family gatherings can be a lot to handle, I know. Maybe it's that one relative who just won't respect your name or pronouns. Maybe it's the offhand comments towards your partner -- or lack thereof --
 or heavy silences when certain topics come up. Or maybe it's worse -- something that leaves you feeling raw, unseen or even unsafe. Where your very indentity and or existance are called 
@@ -33,7 +33,7 @@ To not be a "drama queen". Not be the one who sticks out. The one who "starts tr
 But you're not a blue helmet, are you? Your job is not to keep the peace. Especially not by sacrificing your own well-being.
 
 It's okay to set boundaries. It's okay to say no. And it's okay to leave the table or even skip the gathering altogether if you need to protect yourself. That 
-doesn't make you selfish or ungrateful. It make you brave -- because choosing yourself in a world that so often tells us not to is one of the bravest things you can do.
+doesn't make you selfish or ungrateful. It makes you brave -- because choosing yourself in a world that so often tells us not to is one of the bravest things you can do.
 
 Relation alone does not define family. Family are the people who love you, who take care of you, and who accept you for the person you are. They can be a best friend,
 your partner, a mentor or a group of people you've found along your way. **Chosen family**. And let me tell you, chosen family is just as real, just as meaningful, 
