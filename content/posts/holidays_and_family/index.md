@@ -18,7 +18,7 @@ It's completely understandable if you feel this way. I feel the same, to be hone
 
 Family gatherings can be a lot to handle, I know. Maybe it's that one relative who just won't respect your name or pronouns. Maybe it's the offhand comments towards your partner -- or lack thereof --
 or heavy silences when political topics come up. Or maybe it's worse -- something that leaves you feeling raw, unseen or even unsafe. Where your very indentity and or existance are called 
-into questions under the pretext of "just wondering" or "not being used to it".
+into question under the pretext of "just wondering" or "not being used to it".
 
 People like this always use their age or a "lack of understanding/knowledge" as an excuse for their bigotry, and very quickly play the victim when called out. There is nothing for them to understand. 
 Just the simple decision to accept and love you, or not.
