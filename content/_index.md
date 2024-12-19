@@ -12,7 +12,9 @@ language: "en"
 Welcome to my head-space!
 {{< /typeit >}}
 
-My name is Tiara - or just `Tia` for short.<br> 
+My name is Tiara - or just `Tia` for short.<br>
 I am a 25 year old software engineering apprentice currently employed with an open source software company based in Germany.
 
 In my spare time I love to train in martial arts and have relaxed discussions over a cup of mead.
+
+[Me at a Glance](/about/#me-at-a-glance)

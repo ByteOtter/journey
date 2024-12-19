@@ -17,13 +17,21 @@ Hope my rambling is fun to read!
 
 I see you when I see you!
 
-\- Tiara "ByteOtter"
+\- Tiara aka "ByteOtter"
+
+## Me at a glance
+
+:pencil2: Tiara Lena Hock<br>
+:candle: 25<br>
+:identification_card: She/They :transgender_flag:<br>
+:world_map: Germany<br>
+:speech_balloon: German, English<br>
+:hammer_and_wrench: Open-Source dev, Linux enthusiast, Rust and Python hacker<br>
+:office: Apprentice Software Engineering
 
 ## Contact
 
 In case you need to get in contact with me for any reason and the usual channels do not work:
-
-Matrix Chat: @chris:kde.org
 
 E-Mail: tiara.dev@proton.me
 
