@@ -9,7 +9,7 @@ showAuthor: false
 
 Hi, welcome to my little headspace!
 
-In case you do not know me that well, I am Tiara - or Tia -, a 25 year old software developer apprentice who loves Open-Source Software and learning about tech.
+In case you do not know me that well, I am Tiara - or Tia -, a 26 year old software developer apprentice who loves Open-Source Software and learning about tech.
 
 In this place I will update you, irregularly, on my life, ongoing projects, events I attended and my apprenticeship, or whatever else comes to mind.
 
@@ -22,7 +22,7 @@ I see you when I see you!
 ## Me at a glance
 
 :pencil2: Tiara Lena Hock<br>
-:candle: 25<br>
+:candle: 26<br>
 :identification_card: She/They :transgender_flag:<br>
 :world_map: Germany<br>
 :speech_balloon: German, English<br>

@@ -13,7 +13,7 @@ Welcome to my head-space!
 {{< /typeit >}}
 
 My name is Tiara - or just `Tia` for short.<br>
-I am a 25 year old software engineering apprentice currently employed with an open source software company based in Germany.
+I am a 26 year old software engineering apprentice currently employed with an open source software company based in Germany.
 
 In my spare time I love to train in martial arts and have relaxed discussions over a cup of mead.
 
