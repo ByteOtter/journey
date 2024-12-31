@@ -43,8 +43,8 @@ the road ahead might be.
 
 And you also made sure I didn't have to do so alone. In your final moments with us you introduced me to a very special someone.
 Someone so gentle, so caring, so kind, so intelligent and beautiful. Someone who understands the weight of this journey and has 
-the rare ability to calm my resless mind. To make me feel safe. I don't know where our path will lead us, but I am so grateful 
-they have entered my life. And I promise to cherish and support them in every way I can.
+the rare ability to calm my restless mind. To make me feel safe. I don't know where our path will lead us, but I am so grateful 
+they have entered my life. And I promise you to cherish and support them in every way I can.
 
 2024, you broke me, but you also laid the groundwork for me to rebuild. You showed me that the pieced I'd been holding together 
 in the wrong shape could finally be rearranged into something beautiful. You taught me that I'm strong enough to face the world 
