@@ -48,6 +48,10 @@ Visit me on GitHub!
 {{< github repo="The-Nazara-Project/Thanix" >}}
 {{< github repo="ByteOtter/cshy" >}}
 
+{{< alert icon="triangle-exclamation" >}}
+If any of these entries show "undefined" as title, you are probably blocked from making unauthenticated requests on GitHub's API.
+{{< /alert >}}
+
 ### My experience:
 
 {{< skills-grid >}}
