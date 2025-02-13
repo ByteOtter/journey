@@ -9,9 +9,9 @@ showAuthor: false
 
 Hi, welcome to my little headspace!
 
-In case you do not know me that well, I am Tiara - or Tia -, a 26 year old software developer apprentice who loves Open-Source Software and learning about tech.
+In case you do not know me that well, I am Tiara - or Tia -, a 26 year old software engineer who loves Open-Source Software and learning about tech.
 
-In this place I will update you, irregularly, on my life, ongoing projects, events I attended and my apprenticeship, or whatever else comes to mind.
+In this place I will update you, irregularly, on my life, ongoing projects, events I attended or whatever else comes to mind.
 
 Hope my rambling is fun to read!
 
@@ -27,7 +27,7 @@ I see you when I see you!
 :world_map: Germany<br>
 :speech_balloon: German, English<br>
 :hammer_and_wrench: Open-Source dev, Linux enthusiast, Rust and Python hacker<br>
-:office: Apprentice Software Engineering
+:office: Junior Software Engineer Linux/Open Source
 
 ## Contact
 
