@@ -77,6 +77,12 @@ weight = 10
  weight = 10
 
 [[main]]
+name = "Crumbs"
+parent = "Series"
+pageRef = "posts/series/crumbs/_index.md"
+weight = 10
+
+[[main]]
 name = "Hire Me!"
 pageRef = "resume"
 
