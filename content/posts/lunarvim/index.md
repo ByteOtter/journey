@@ -30,7 +30,7 @@ I will not go over the basic installation of LunarVim, as this is explained well
 
 {{< alert icon="comment" >}}
 Be aware that most Linux distributions now block `pip` from installing packages system wide by default, so when prompted to install the python dependencies
-and it files while attempting to, simply try again and skip that step.
+and it fails while attempting to, simply try again and skip that step.
 {{< /alert >}}
 
 However, there are a couple things I did to get the most out of my LunarVim.
