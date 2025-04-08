@@ -3,7 +3,7 @@ title: "Project specific LSP configs with LunarVim"
 date: 2024-08-07T19:30:15+02:00
 draft: false
 heroStyle: background
-tags: ['Programming', 'Tutorials & Guides']
+tags: ['Blog', 'Programming', 'Tutorials & Guides']
 ---
 
 > Update 17-08-2024:

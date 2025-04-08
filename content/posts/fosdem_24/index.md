@@ -2,7 +2,7 @@
 title: "Here and back again - Visiting FOSDEM 24"
 date: 2024-02-05T21:00:03+02:00
 draft: false
-tags: ['Updates', 'Travelling', 'Programming']
+tags: ['Blog', 'Travelling', 'Programming']
 ---
 
 Last weekend, I got the chance to visit FOSDEM 2024 in Brussels, Belgium. This was the second time I was able to visit Europe's largest open source software summit alongside my colleagues and openSUSE members.
