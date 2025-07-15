@@ -23,7 +23,7 @@ UK:
 * [Switchboard LGBT+ Helpline](https://www.trans.ac.uk/LinkClick.aspx?link=https%3a%2f%2fswitchboard.lgbt%2f&tabid=7257&portalid=88&mid=14178) (UK)0300 330 0630
 
 DE:
-* [VDGE e.V](https://www.vdge.org/)
+* [dgti e.V](https://dgti.org)
 {{< /alert >}}
 
 
