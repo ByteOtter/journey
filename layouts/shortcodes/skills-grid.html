@@ -22,14 +22,14 @@
   </div>
   <div class="skill-card" onclick="openPopup('bash')">
     {{ $bashIcon := resources.Get "icons/bash.svg" }}
-    
+
     <img src="{{ $bashIcon.RelPermalink }}" alt="The GNU Bash Logo" />
 
     <h3>Bash</h3>
     <p>The fundamental shell scripting language</p>
   </div>
   <div class="skill-card" onclick="openPopup('ci')">
-    
+
     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
       <title>GitHub Actions</title>
       <path
@@ -40,7 +40,7 @@
     <p>Automating the development process</p>
   </div>
   <div class="skill-card" onclick="openPopup('docker')">
-    
+
     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
       <title>Docker</title>
       <path
@@ -134,6 +134,7 @@
           <li>Reqwest API operations framework</li>
           <li>Tokio async programming framework</li>
           <li>Cargo's integrated tooling for documentation, testing and publishing</li>
+          <li>Automated documentation using mdBook and GitHub actions</li>
         </ul>
       </div>
       <div>
@@ -264,7 +265,7 @@ function closePopup(skill, event) {
   if (event) {
     event.stopPropagation();
   }
-  
+
   const popup = document.getElementById(`popup-${skill}`);
   if (popup) {
     // Apply closing animation
