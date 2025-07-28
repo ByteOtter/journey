@@ -3,6 +3,21 @@
     max-width: 7rem;
 }
 
+/* BEGIN CONTENT WARNING STYLE */
+.content-warning-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: irem auto;
+}
+
+.warning-symbol {
+  font-size: 60px;
+  color: currentColor;
+  line-height: 1;
+}
+/* END CONTENT WARNING STYLE */
+
 /* Grid-Layout */
 .skills-grid {
   display: grid;
