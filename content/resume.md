@@ -28,10 +28,22 @@ To this end I am currently in the process of learning Rust and C.
 Get my Resume
 {{< /button >}}
 
+{{< button href="mailto:tiara.dev@proton.me" taget="_self" >}}
+{{< icon "email" >}}
+Send me an email
+{{< /button >}}
+
 {{< button href="https://github.com/ByteOtter" target="_self" >}}
 {{< icon "github" >}}
 Visit me on GitHub!
 {{< /button >}}
+{{< button href="https://codeberg.org/BytePaws" target="_self" >}}
+{{< icon "codeberg" >}}
+Visit me on Codeberg!
+{{< /button >}}
+
+
+
 
 ### Current projects:
 
@@ -41,12 +53,13 @@ Visit me on GitHub!
 |[![Static Badge](https://img.shields.io/badge/cshy-cshy?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/ByteOtter/cshy)|A file package format built for learning purposes only.|Project Owner/Lead Developer|
 |[![Static Badge](https://img.shields.io/badge/%20isotest-isotest?style=flat-square&logo=rust&logoColor=red&color=black)](https://github.com/os-autoinst/isotest-ng)|Re-implementation of the `isotovideo` module of `openQA`.|Initiator/Contributor|
 |[![Static Badge](https://img.shields.io/badge/menix-menix?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/menix-os/menix)|A minimal and expandable Unix-like operating system|Maintainer|
+|![Static Badge](https://img.shields.io/badge/gardenlinux-gardenlinux?style=flat-square&logo=python&logoColor=green&labelColor=black&color=black)|The Linux distro to run Gardener nodes|Contributor|
 
 ### Pinned Projects
 
 {{< github repo="The-Nazara-Project/Nazara" >}}
 {{< github repo="The-Nazara-Project/Thanix" >}}
-{{< github repo="ByteOtter/cshy" >}}
+{{< codeberg repo="BytePaws/cshy" >}}
 
 {{< alert icon="triangle-exclamation" >}}
 If any of these entries show "undefined" as title, you are probably blocked from making unauthenticated requests on GitHub's API.

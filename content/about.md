@@ -4,6 +4,7 @@ date: 2023-06-06T20:39:13+02:00
 draft: false
 showtableOfContents: false
 showAuthor: false
+heroStyle: background
 ---
 ## About
 
