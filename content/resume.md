@@ -53,7 +53,7 @@ Visit me on Codeberg!
 |[![Static Badge](https://img.shields.io/badge/cshy-cshy?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/ByteOtter/cshy)|A file package format built for learning purposes only.|Project Owner/Lead Developer|
 |[![Static Badge](https://img.shields.io/badge/%20isotest-isotest?style=flat-square&logo=rust&logoColor=red&color=black)](https://github.com/os-autoinst/isotest-ng)|Re-implementation of the `isotovideo` module of `openQA`.|Initiator/Contributor|
 |[![Static Badge](https://img.shields.io/badge/menix-menix?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/menix-os/menix)|A minimal and expandable Unix-like operating system|Maintainer|
-|![Static Badge](https://img.shields.io/badge/gardenlinux-gardenlinux?style=flat-square&logo=python&logoColor=green&labelColor=black&color=black)|The Linux distro to run Gardener nodes|Contributor|
+|![Static Badge](https://img.shields.io/badge/gardenlinux-gardenlinux?style=flat-square&logo=python&logoColor=green&labelColor=black&color=black)|The Linux distro to run Gardener nodes|Maintainer|
 
 ### Pinned Projects
 
