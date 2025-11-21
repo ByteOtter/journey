@@ -41,7 +41,7 @@ The coordinated attacks on our existence, for the simple act of trying to live a
 
 I share your fears, the uncertainty, the frustration.
 
-On this day we remember those whose lives had been cut short. Whose lives were taken for simply being who their were.
+On this day we remember those whose lives had been cut short. Whose lives were taken for simply being who they were.
 This day, November 20th, is a day that should not exist. A day born from the loss of people who deserved so much more time,
 more joy, more life.
 
@@ -84,7 +84,7 @@ Just like all queer people. The first reports of gender non-conforming people go
 cradles of civilisation. Many indigenous people recognized more than two genders and it is scientific fact that we exist
 unphased by outside influences.
 
-Noone "becomes trans*".
+No one "becomes trans*".
 
 We simply are.
 
