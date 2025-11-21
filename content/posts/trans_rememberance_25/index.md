@@ -184,7 +184,7 @@ Your,
 
 
 <small>
-  Background Image: Kristaps Ungurs <br>
+  Background Image: Kristaps Ungurs @ Unsplash<br>
   Thumbnail: <a href="https://www.flickr.com/photos/taedc/26784664589/in/photolist-GNSpBT-R6y3gA-2bQK4ik-2mKqV5f-AmdPTU-R6y5q5-2bQK57e-2asNRmm-2asNR5Q-PtbDLa-R6y2oo-R6y4Sw-R6xX65-2d9SHdq-2bQJYsZ-2asNS3S-R6xWZJ-R6xVSo-2d9SGs7-2bQK5Nz-R6xWcS-2mKqV67-Pt4jEX-2mKkt1L-2bQJUtX-2bQJTYi-ARCbp9-eZ2fLV-21zHScq-PtbJWa-R6y1Rw-JfCYvP-R6xWSu-2d9SUDG-2bQK4cD-2bQK65M-2hP1Eb7-BfrNDU-2mJbyyW-2hNZE68-2d9SH3L-2mKqV7u-2o4qXN5-PtbE7v-2asNMSh-Nds3Nh-Bgsok5-2hNX2RA-2bQJULk-R6xWvh/" target="_blank" rel="noopener noreferrer">Ted Eytan @ Flickr</a> licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 2.0</a>
 
   **No generative AI was used in the writing of this blog post.**
