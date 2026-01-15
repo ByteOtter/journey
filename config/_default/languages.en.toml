@@ -16,7 +16,7 @@ title = "ByteOtter"
 [params.author]
   name = "ByteOtter"
   image = "img/me.jpeg"
-  headline = "I'm only an Otter"
+# headline = ""
   bio = "*No I am not defending Linux superiority, I am stating the fucking obvious!*"
   links = [
     { email = "mailto:tiara.dev@proton.me" },
@@ -57,9 +57,9 @@ title = "ByteOtter"
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
-#     { twitter = "https://twitter.com/username" }
+#     { twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
-    { codeberg = "https://codeberg.org/ByteOtter" },
+    { codeberg = "https://codeberg.org/BytePaws" },
   ]

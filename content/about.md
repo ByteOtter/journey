@@ -10,7 +10,7 @@ heroStyle: background
 
 Hi, welcome to my little headspace!
 
-In case you do not know me that well, I am Tiara - or Tia -, a 26 year old software engineer who loves Open-Source Software and learning about tech.
+In case you do not know me that well, I am Tiara - or Tia -, a 27 year old software engineer who loves Open-Source Software and learning about tech.
 
 In this place I will update you, irregularly, on my life, ongoing projects, events I attended or whatever else comes to mind.
 
@@ -18,17 +18,17 @@ Hope my rambling is fun to read!
 
 I see you when I see you!
 
-\- Tiara aka "ByteOtter"
+\- Tiara
 
 ## Me at a glance
 
 :pencil2: Tiara Lena Hock<br>
-:candle: 26<br>
+:candle: 27<br>
 :identification_card: She/They :transgender_flag:<br>
 :world_map: Germany<br>
 :speech_balloon: German, English<br>
 :hammer_and_wrench: Open-Source dev, Linux enthusiast, Rust and Python hacker<br>
-:office: Junior Software Engineer Linux/Open Source
+:office: Junior Software Developer Linux/Open Source
 
 ## Contact
 

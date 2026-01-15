@@ -18,12 +18,12 @@
 [[main]]
 name = "Inklings"
 pageRef = "posts/inklings/"
-weight = 10
+weight = 20
 
 [[main]]
 name = "Projects"
 pageRef = "projects"
-weight = 10
+weight = 30
 
 #[[main]]
 #  name = "Parent"
@@ -85,6 +85,19 @@ weight = 10
 [[main]]
 name = "Hire Me!"
 pageRef = "resume"
+weight = 40
+
+[[main]]
+identifier = "codeberg-nav-link"
+pre = "codeberg"
+url = "https://codeberg.org/BytePaws"
+weight = 50
+
+[[main]]
+identifier = "mail-nav-link"
+pre = "email"
+url = "mailto:tiara.dev@proton.me"
+weight = 60
 
 #[[main]]
 #  name = "example sub-menu 2"
@@ -119,24 +132,30 @@ pageRef = "resume"
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 10
-
-[[footer]]
   name = "About"
   pageRef = "about"
   weight = 10
 
 [[footer]]
-name = "Licenses"
-pageRef = "licenses"
-weight = 10
+  name = "Licenses"
+  pageRef = "licenses"
+  weight = 20
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
 
 [[footer]]
 name = "Hire Me!"
 pageRef = "resume"
-weight = 20
+weight = 40
+
+[[footer]]
+pre = "code"
+url = "https://github.com/ByteOtter/journey"
+weight = 50
 
 # [[footer]]
 #   name = "Categories"

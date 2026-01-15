@@ -8,11 +8,11 @@ draft: false
 so, here it is. Long awaited, finally here, a proper explanation of what I have been doing off
 work in the last year or so.
 
-I have been busy building an open source project called *"[The Nazara Project](https://github.com/The-Nazara-Project)"*.
+I have been busy building an open source project called *"[The Nazara Project](https://codeberg.org/nazara-project)"*.
 
 The Nazara Project is a cluster of open source software projects which focus around an application called 
-*"[Nazara](https://github.com/The-Nazara-Project/Nazara)"*.
-Nazara is - or will be - a CLI application through which users can register and update their machines in the inventory 
+*"[Nazara](https://codeber.gorg/nazara-project/Nazara)"*.
+Nazara is a CLI application through which users can register and update their machines in the inventory 
 and IPAM tool *[NetBox](https://netbox.dev/)*.
 
 But let's start at the beginning.

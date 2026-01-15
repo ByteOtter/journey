@@ -12,7 +12,7 @@ heroStyle: background
 
 ## Hey, I'm Tia aka ByteOtter
 
-I'm a software engineer employed with an open source company based in Germany.
+I'm a software developer employed with an open source software company based in Germany.
 
 I started programming in Uni mostly using Java and Python, but am now mostly using Rust and Python.
 My interests currently move in the direction of more hardware related programming topics.
@@ -33,34 +33,34 @@ Get my Resume
 Send me an email
 {{< /button >}}
 
-{{< button href="https://github.com/ByteOtter" target="_self" >}}
-{{< icon "github" >}}
-Visit me on GitHub!
-{{< /button >}}
 {{< button href="https://codeberg.org/BytePaws" target="_self" >}}
 {{< icon "codeberg" >}}
 Visit me on Codeberg!
 {{< /button >}}
-
+{{< button href="https://github.com/ByteOtter" target="_self" >}}
+{{< icon "github" >}}
+Visit me on GitHub!
+{{< /button >}}
 
 
 
 ### Current projects:
 
-| Name (link)                                                                                                                                                          | Description                                                             | Position                     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------- |
-| [![Static Badge](https://img.shields.io/badge/%20Nazara-Nazara?style=flat-square&logo=rust&logoColor=red&color=black)](https://github.com/The-Nazara-Project/Nazara) | A Rust application to create NetBox entries for machines automatically. | Project Owner/Lead Developer |
-| [![Static Badge](https://img.shields.io/badge/cshy-cshy?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://github.com/ByteOtter/cshy)    | A file package format built for learning purposes only.                 | Project Owner/Lead Developer |
-| ![Static Badge](https://img.shields.io/badge/gardenlinux-gardenlinux?style=flat-square&logo=python&logoColor=green&labelColor=black&color=black)                     | The Linux distro to run Gardener nodes                                  | Maintainer                   |
+| Name (link)                                                                                                                                                                       | Description                                                             | Position                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------- |
+| [![Static Badge](https://img.shields.io/badge/%20Nazara-Nazara?style=flat-square&logo=rust&logoColor=red&color=black)](https://codeberg.org/nazara-project)                       | A Rust application to create NetBox entries for machines automatically. | Project Owner/Lead Developer |
+| [![Static Badge](https://img.shields.io/badge/cshy-cshy?style=flat-square&logo=C&logoColor=blue&labelColor=black&color=black)](https://codeberg.org/BytePaws/cshy)                | A file package format built for learning purposes only.                 | Project Owner/Lead Developer |
+| [![Static Badge](https://img.shields.io/badge/gardenlinux-gardenlinux?style=flat-square&logo=python&logoColor=green&labelColor=black&color=black)](https://github.com/gardenlinux)| The Linux distro to run Gardener nodes                                  | Maintainer                   |
+
 
 ### Pinned Projects
 
-{{< github repo="The-Nazara-Project/Nazara" >}}
-{{< github repo="The-Nazara-Project/Thanix" >}}
+{{< codeberg repo="nazara-project/Nazara" >}}
+{{< codeberg repo="nazara-project/Thanix" >}}
 {{< codeberg repo="BytePaws/cshy" >}}
 
 {{< alert icon="triangle-exclamation" >}}
-If any of these entries show "undefined" as title, you are probably blocked from making unauthenticated requests on GitHub's API.
+If any of these entries show "undefined" as title, you are probably blocked from making unauthenticated requests on the git forge's API.
 {{< /alert >}}
 
 ### My experience:

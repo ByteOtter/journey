@@ -5,4 +5,4 @@ heroStyle: "background"
 draft: true 
 ---
 
-Welcome to [Thanix](https://github.com/The-Nazara-Project/Thanix)!
+Welcome to [Thanix](https://codeberg.org/nazara-project/Thanix)!

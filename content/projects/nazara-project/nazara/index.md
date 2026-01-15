@@ -5,4 +5,4 @@ heroStyle: "background"
 draft: true
 ---
 
-Welcome to [Nazara](https://github.com/The-Nazara-Project/Nazara)!
+Welcome to [Nazara](https://codeberg.org/nazara-project/Nazara)!
