@@ -23,11 +23,10 @@ I see you when I see you!
 ## Me at a glance
 
 :pencil2: Tiara Lena Hock<br>
-:candle: 27<br>
 :identification_card: She/They :transgender_flag:<br>
 :world_map: Germany<br>
 :speech_balloon: German, English<br>
-:hammer_and_wrench: Open-Source dev, Linux enthusiast, Rust and Python hacker<br>
+:hammer_and_wrench: Open-Source dev, Linux enthusiast<br>
 :office: Junior Software Developer Linux/Open Source
 
 ## Contact

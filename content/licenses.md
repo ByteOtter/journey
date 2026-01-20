@@ -7,13 +7,22 @@ showAuthor: false
 ---
 # The Blogposts
 
-Any and all work I upload to this site in the form of posts is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+Any and all work I upload in the form of written blog posts is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) license.
 
-| Permission or Restriction | Description |
-| --- | --- |
-| **Attribution (BY)** | You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. |
-| **NonCommercial (NC)** | You may not use the material for commercial purposes. This means that you can't use the material to generate a profit or to promote commercial activities. |
-| **NoDerivatives (ND)** | If you remix, transform, or build upon the material, you may not distribute the modified material. This means that you can't create derivative works or adaptations of the material. |
+[See the terms here](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Not covered by this license** are any pictures, works of visual art or pieces of written fiction in the form of
+the so-called "Inklinks" category. Or any post that explicitly states otherwise.
+These works, unless stated otherwise, are provided as "All Rights Reserved" and any use does require the written
+permission of the original author.
+
+# The Code
+
+Any code I wrote for this website. In the form of custom shortcodes, CSS layouts, etc. I licensed under the
+[Opinionated Queer Licenses v1.3](https://oql.avris.it/license?c=Tiara%20Hock%7Cmailto%3Atiara.dev%40proton.me).
+
+This applies to all code snippets I share in my posts, as well as any code
+found in the `scripts/`, `layouts/shortcodes/`, and `layouts/` directories.
 
 # Pictures and Artwork
 
@@ -30,6 +39,11 @@ Note: I am not sponsored by, nor customer at the platforms listed above.
 # Logo
 
 The logo has been created by me using the Logo.com logo creator.
+
+# AI Processing Statement
+
+I do not consent to the contents on this website being used for any purpose that helps support, train, test, develop
+or enable any Artificial Intelligence project or service, commercial or not.
 
 ---
 

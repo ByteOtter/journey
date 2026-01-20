@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Blog"
- pageRef = "posts"
- weight = 10
+name = "Blog"
+pageRef = "posts"
+weight = 10
 
 [[main]]
 name = "Inklings"
@@ -30,19 +30,19 @@ weight = 30
 #  weight = 20
 
 [[main]]
- pre = "rust"
- identifier = "nazara-project"
- name = "The Nazara Project"
- parent = "Projects"
- pageRef = "projects/nazara-project/_index.md"
- weight = 1
+pre = "rust"
+identifier = "nazara-project"
+name = "The Nazara Project"
+parent = "Projects"
+pageRef = "projects/nazara-project/_index.md"
+weight = 1
 
 [[main]]
- identifier = "nazara"
- name = "Nazara"
- parent = "nazara-project"
- pageRef = "projects/nazara-project/nazara/_index.md"
- weight = 10
+identifier = "nazara"
+name = "Nazara"
+parent = "nazara-project"
+pageRef = "projects/nazara-project/nazara/_index.md"
+weight = 10
 
 [[main]]
 identifier = "thanix"
@@ -52,29 +52,29 @@ pageRef = "projects/nazara-project/thanix/_index.md"
 weight = 10
 
 [[main]]
- pre = "python"
- name = "The Otter Den"
- parent = "Projects"
- pageRef = "projects/otter_den"
- weight = 10
-
- [[main]]
- pre = "python"
- name = "Nester"
- parent = "Projects"
- pageRef = "projects/nester"
- weight = 10
+pre = "python"
+name = "The Otter Den"
+parent = "Projects"
+pageRef = "projects/otter_den"
+weight = 10
 
 [[main]]
- name = "Series"
- pageRef = "posts/series"
- weight = 10
+pre = "python"
+name = "Nester"
+parent = "Projects"
+pageRef = "projects/nester"
+weight = 10
 
- [[main]]
- name = "Introduction to Linux"
- parent = "Series"
- pageRef = "posts/series/linux-intro"
- weight = 10
+[[main]]
+name = "Series"
+pageRef = "posts/series"
+weight = 10
+
+[[main]]
+name = "Introduction to Linux"
+parent = "Series"
+pageRef = "posts/series/linux-intro"
+weight = 10
 
 [[main]]
 name = "Crumbs"
@@ -132,20 +132,19 @@ weight = 60
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
+name = "About"
+pageRef = "about"
+weight = 10
 
 [[footer]]
-  name = "Licenses"
-  pageRef = "licenses"
-  weight = 20
+name = "Licenses"
+pageRef = "licenses"
+weight = 20
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
+name = "Tags"
+pageRef = "tags"
+weight = 30
 
 [[footer]]
 name = "Hire Me!"

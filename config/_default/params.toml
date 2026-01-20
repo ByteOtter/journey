@@ -20,8 +20,8 @@ disableTextInHeader = true
 defaultBackgroundImage = "img/wallpaper.png" # used as default for background images
 defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
+highlightCurrentMenuArea = true
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 [header]
@@ -39,7 +39,7 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
   homepageImage = "img/wallpaper.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
-  showMoreLink = true 
+  showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = false
   cardViewScreenWidth = false
@@ -60,7 +60,7 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
-  seriesOpened = true 
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
@@ -68,8 +68,8 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
   showTableOfContents = true
   # showRelatedContent = false
   # relatedContentLimit = 3
-  showTaxonomies = true 
-  showAuthorsBadges = false 
+  showTaxonomies = true
+  showAuthorsBadges = false
   showWordCount = true
   showSummary = true
   sharingLinks = [ "linkedin", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
@@ -95,13 +95,13 @@ defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images
 
 [taxonomy]
   showTermCount = true
-  showHero = true 
+  showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = false
-  cardView = true 
+  cardView = true
 
 [term]
   showHero = false
