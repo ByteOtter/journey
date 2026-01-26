@@ -1,6 +1,7 @@
 ---
 title: "Series Section"
 tags: ['series']
+layoutBackgroundHeaderSpace: false
 description: "My blog post series."
 cascade:
   showReadingTime: true

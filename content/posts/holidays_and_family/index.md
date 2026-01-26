@@ -3,6 +3,7 @@ title: "A word about holidays and family..."
 date: 2024-12-18T11:00:00+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog', 'Social', 'Pride']
 ---
 

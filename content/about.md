@@ -4,13 +4,15 @@ date: 2023-06-06T20:39:13+02:00
 draft: false
 showtableOfContents: false
 showAuthor: false
+showDate: false
+showWordCount: false
+showReadingTime: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 ---
-## About
-
 Hi, welcome to my little headspace!
 
-In case you do not know me that well, I am Tiara - or Tia -, a 27 year old software engineer who loves Open-Source Software and learning about tech.
+In case you do not know me that well, I am Tiara, a 27 year old software developer who loves Open-Source Software and learning about tech.
 
 In this place I will update you, irregularly, on my life, ongoing projects, events I attended or whatever else comes to mind.
 
@@ -22,7 +24,7 @@ I see you when I see you!
 
 ## Me at a glance
 
-:pencil2: Tiara Lena Hock<br>
+:pencil2: Tiara Lena H.<br>
 :identification_card: She/They :transgender_flag:<br>
 :world_map: Germany<br>
 :speech_balloon: German, English<br>

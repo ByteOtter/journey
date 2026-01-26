@@ -3,6 +3,7 @@ title: "Happy Trans* Visibility Day!"
 date: 2025-04-01T18:00:00+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog', 'Social', 'Pride']
 ---
 

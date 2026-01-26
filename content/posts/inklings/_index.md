@@ -1,6 +1,7 @@
 ---
 title: "Welcome to my Inklings!"
 description: "Story scraps and scribbles from a sort-of hobby author"
+layoutBackgroundHeaderSpace: false
 ---
 
 As you know, I am sort-of (posing as) an amateur author, and

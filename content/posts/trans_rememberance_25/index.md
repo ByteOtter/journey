@@ -3,6 +3,7 @@ title: "Trans* Rememberance Day 2025"
 date: 2025-11-20T19:22:10+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog', 'Social', 'Pride']
 ---
 

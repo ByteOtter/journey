@@ -3,7 +3,15 @@ title: "Licenses and Acknowledgements"
 date: 2023-06-06T20:39:13+02:00
 draft: false
 showtableOfContents: false
+showReadingtime: false
+showWordcount: false
+showDate: false
+showPagination: false
+showSummary: false
 showAuthor: false
+heroStyle: background
+sharingLinks: false
+layoutBackgroundHeaderSpace: false
 ---
 # The Blogposts
 
@@ -19,15 +27,17 @@ permission of the original author.
 # The Code
 
 Any code I wrote for this website. In the form of custom shortcodes, CSS layouts, etc. I licensed under the
-[Opinionated Queer Licenses v1.3](https://oql.avris.it/license?c=Tiara%20Hock%7Cmailto%3Atiara.dev%40proton.me).
+[Opinionated Queer License v1.3](https://oql.avris.it/license?c=Tiara%20Hock%7Cmailto%3Atiara.dev%40proton.me).
 
 This applies to all code snippets I share in my posts, as well as any code
 found in the `scripts/`, `layouts/shortcodes/`, and `layouts/` directories.
 
 # Pictures and Artwork
 
-Some images used in posts on this private blog are licensed under the `Unsplash` or `CC0` license allowing for private
+Some images used as backgrounds or thumbnails in posts on this private blog are licensed under the `Unsplash` or `CC0` license allowing for private
 non-commercial use without need for credit.
+
+Credit is given in each post's footer on a best-effort basis with a link to the artist's profile.
 
 They were aquired through the following sources:
 

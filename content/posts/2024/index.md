@@ -3,6 +3,7 @@ title: "Dear 2024..."
 date: 2024-12-31T12:00:00+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog']
 ---
 

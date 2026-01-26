@@ -2,6 +2,7 @@
 title: "Series: Introduction to Linux"
 tags: ['Linux', 'Tutorials & Guides', 'series']
 description: "Introduction to Linux"
+layoutBackgroundHeaderSpace: false
 cascade:
   showReadingTime: true
 ---

@@ -3,6 +3,7 @@ title: "LunarVim - Light weight terminal IDE"
 date: 2025-03-04T16:15:00+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog', 'Programming', 'Tutorials & Guides']
 ---
 

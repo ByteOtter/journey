@@ -3,6 +3,7 @@ title: "Happy Trans Awareness Month!"
 date: 2024-11-13T18:00:00+02:00
 draft: false
 heroStyle: background
+layoutBackgroundHeaderSpace: false
 tags: ['Blog', 'Social', 'Pride']
 ---
 
