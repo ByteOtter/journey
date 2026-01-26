@@ -33,11 +33,11 @@ Get my Resume
 Send me an email
 {{< /button >}}
 
-{{< button href="https://codeberg.org/BytePaws" target="_self" >}}
+{{< button href="https://codeberg.org/BytePaws" target="_blank">}}
 {{< icon "codeberg" >}}
 Visit me on Codeberg!
 {{< /button >}}
-{{< button href="https://github.com/ByteOtter" target="_self" >}}
+{{< button href="https://github.com/ByteOtter" target="_blank" >}}
 {{< icon "github" >}}
 Visit me on GitHub!
 {{< /button >}}
@@ -46,10 +46,13 @@ Visit me on GitHub!
 
 {{< timeline >}}
 
-{{< timelineItem icon="star" header="B1 Systems GmbH" badge="Current" subheader="Junior Software Developer Linux/Open-Source" >}}
+{{< timelineItem icon="star" header="B1 Systems GmbH" badge="Feb 2025 - Current" subheader="Junior Software Developer Linux/Open-Source" >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="SUSE Software Solutions GmbH" badge="Sep 2022 - Feb 2025" subheader="Computer Science Specialist: Application Development" >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="JMU Würzburg" badge="2019 - 2021" subheader="IT Support Technician (Level 1 & 2)" >}}
 {{< /timelineItem >}}
 
 {{< /timeline >}}
