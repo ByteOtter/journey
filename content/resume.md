@@ -42,14 +42,30 @@ Visit me on Codeberg!
 Visit me on GitHub!
 {{< /button >}}
 
-### Working Experience
+### Work Experience
 
 {{< timeline >}}
 
 {{< timelineItem icon="star" header="B1 Systems GmbH" badge="Feb 2025 - Current" subheader="Junior Software Developer Linux/Open-Source" >}}
+{{< keywordList >}}
+{{< keyword icon="python" >}} Python {{< /keyword >}}
+{{< keyword icon="docker" >}} Docker {{< /keyword >}}
+{{< keyword icon="code" >}} CI/CD {{< /keyword >}}
+{{< keyword icon="gitlab" >}} GitLab {{< /keyword >}}
+{{< /keywordList >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="SUSE Software Solutions GmbH" badge="Sep 2022 - Feb 2025" subheader="Computer Science Specialist: Application Development" >}}
+{{< keywordList >}}
+{{< keyword icon="github" >}} GitHub {{< /keyword >}}
+{{< keyword icon="rust" >}} Rust {{< /keyword >}}
+{{< keyword icon="python" >}} Python {{< /keyword >}}
+{{< keyword icon="ruby" >}} Ruby {{< /keyword >}}
+{{< keyword icon="docker" >}} Docker {{< /keyword >}}
+{{< keyword icon="code" >}} CI/CD {{< /keyword >}}
+{{< keyword icon="code" >}} RPM {{< /keyword >}}
+{{< keyword icon="make" >}} Make {{< /keyword >}}
+{{< /keywordList >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="JMU Würzburg" badge="2019 - 2021" subheader="IT Support Technician (Level 1 & 2)" >}}
