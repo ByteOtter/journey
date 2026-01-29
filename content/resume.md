@@ -96,6 +96,7 @@ Visit me on GitHub!
 
 |Name|Completion Date|Link (if applicable)|
 |-|-|-|
+|Telekom Public Cloud Essentials|09/2025||
 |Telekom Public Cloud Fundamentals|10/2025||
 
 {{< /tab >}}
@@ -104,12 +105,12 @@ Visit me on GitHub!
 
 {{< timeline >}}
 
-{{< timelineItem icon="heart-empty" header="Awarness Team/Volunteer Staff" badge="2023" subheader="Quellcode 2023">}}
-Was part of the team of volunteers who worked to prepare the first <a href="https://quellcode.0x90.space" target="_blank">Quellcode</a> in Nuremberg.
-{{< /timelineItem >}}
-
 {{< timelineItem icon="heart-empty" header="Programming Mentor" badge="2023 - 2024" subheader="Vocational School">}}
 Mentored a group of students during the beginnings of their apprenticeship in the fundamentals of Coding and Linux.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="heart-empty" header="Awareness Team/Volunteer Staff" badge="2023" subheader="Quellcode 2023">}}
+Was part of the team of volunteers who worked to prepare the first <a href="https://quellcode.0x90.space" target="_blank">Quellcode</a> in Nuremberg.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -122,16 +123,3 @@ Mentored a group of students during the beginnings of their apprenticeship in th
 ### My Experience in Detail
 
 {{< skills-grid >}}
-
-#### Testing & QA
-
-![PyTest](https://img.shields.io/badge/pytest--brightgreen?style=for-the-badge&logo=pytest&logoColor=brightgreen)
-![Cucumber](https://img.shields.io/badge/cucumber--green?style=for-the-badge&logo=cucumber&logoColor=green)
-![Selenium](https://img.shields.io/badge/selenium--white?style=for-the-badge&logo=selenium&logoColor=white)
-
-#### Build tools:
-
-![Setuptools](https://img.shields.io/badge/setuptools--yellow?style=for-the-badge&logo=pypi&logoColor=yellow)
-![Cargo](https://img.shields.io/badge/cargo--orange?style=for-the-badge&logo=rust&logoColor=orange)
-![OpenBuildService](https://img.shields.io/badge/open_build_service--green?style=for-the-badge)
-![Make](https://img.shields.io/badge/make--red?style=for-the-badge&logo=make&logoColor=red)
