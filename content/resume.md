@@ -14,7 +14,9 @@ sharingLinks: false
 layoutBackgroundHeaderSpace: false
 ---
 
-## Hey, I'm Tiara
+## Who I am
+
+### Hey, I'm Tiara!
 
 I'm a software developer employed with an open source software company based in Germany.
 
@@ -42,7 +44,11 @@ Visit me on Codeberg!
 Visit me on GitHub!
 {{< /button >}}
 
-### Work Experience
+### What I Do
+
+{{< tabs >}}
+
+{{< special-tab label="Work Experience" >}}
 
 {{< timeline >}}
 
@@ -73,17 +79,47 @@ Visit me on GitHub!
 
 {{< /timeline >}}
 
+{{< /special-tab >}}
 
-### Current Projects
+{{< special-tab label="Projects" >}}
 
 {{< codeberg repo="nazara-project/Nazara" >}}
 {{< codeberg repo="nazara-project/Thanix" >}}
 {{< github repo="gardenlinux/gardenlinux" showThumbnail=false >}}
 
-> [!question]+ Can't see the cards?
-> If any of these entries show "undefined" as title, you are probably blocked from making unauthenticated requests on the git forge's API.
+<small>Cannot see the cards?</small><br>
+<small>This means you are likely blocked from making unauthenticated API calls to GitHub or Codeberg.</small>
 
-### My experience:
+{{< /special-tab >}}
+
+{{< tab label="Certifications" >}}
+
+|Name|Completion Date|Link (if applicable)|
+|-|-|-|
+|Telekom Public Cloud Fundamentals|10/2025||
+
+{{< /tab >}}
+
+{{< special-tab label="Extracurriculars" >}}
+
+{{< timeline >}}
+
+{{< timelineItem icon="heart-empty" header="Awarness Team/Volunteer Staff" badge="2023" subheader="Quellcode 2023">}}
+Was part of the team of volunteers who worked to prepare the first <a href="https://quellcode.0x90.space" target="_blank">Quellcode</a> in Nuremberg.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="heart-empty" header="Programming Mentor" badge="2023 - 2024" subheader="Vocational School">}}
+Mentored a group of students during the beginnings of their apprenticeship in the fundamentals of Coding and Linux.
+{{< /timelineItem >}}
+
+{{< /timeline >}}
+
+{{< /special-tab >}}
+
+{{< /tabs >}}
+
+
+### My Experience in Detail
 
 {{< skills-grid >}}
 
