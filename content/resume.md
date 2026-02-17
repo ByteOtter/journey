@@ -105,12 +105,12 @@ Visit me on GitHub!
 
 {{< timeline >}}
 
-{{< timelineItem icon="heart-empty" header="Programming Mentor" badge="2023 - 2024" subheader="Vocational School">}}
-Mentored a group of students during the beginnings of their apprenticeship in the fundamentals of Coding and Linux.
+{{< timelineItem icon="heart-empty" header="Awareness Team/Volunteer Staff" badge="Aug 2023" subheader="Quellcode 2023">}}
+Was part of the team of volunteers who worked to prepare the first <a href="https://quellcode.0x90.space" target="_blank">Quellcode</a> in Nuremberg.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="heart-empty" header="Awareness Team/Volunteer Staff" badge="2023" subheader="Quellcode 2023">}}
-Was part of the team of volunteers who worked to prepare the first <a href="https://quellcode.0x90.space" target="_blank">Quellcode</a> in Nuremberg.
+{{< timelineItem icon="heart-empty" header="Programming Mentor" badge="Nov 2022 - Dec 2023" subheader="Vocational School">}}
+Mentored a group of students during the beginnings of their apprenticeship in the fundamentals of Coding and Linux.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
