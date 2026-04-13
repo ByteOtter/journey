@@ -18,7 +18,7 @@ mainSections = ["posts", "projects"]
 disableImageOptimization = true
 disableTextInHeader = true
 defaultBackgroundImage = "img/wallpaper.png" # used as default for background images
-defaultFeaturedImage = "img/wallpaper.png" # used as default for featured images in all articles
+defaultFeaturedImage = "img/logo_with_background.png" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
 smartTOC = true
