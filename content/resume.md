@@ -25,7 +25,7 @@ My interests currently move in the direction of more hardware related programmin
 
 To this end I am currently in the process of learning Rust and C.
 
-{{< button href="/files/Tiara_Lena_Hock_Resume_PUBLIC.pdf" target="_blank" rel="noopener noreferrer">}}
+{{< button href="/files/Tiara_Resume_INT_PUBLIC.pdf" target="_blank" rel="noopener noreferrer">}}
 {{< icon "download" >}}
 Get my Resume
 {{< /button >}}
