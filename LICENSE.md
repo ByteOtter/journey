@@ -15,7 +15,7 @@ Unless otherwise stated, original code authored by the repository owner and loca
 
 is licensed under the **Opinionated Queer License (OQL)**.
 
-See: [`LICENSES/OQL-1.3.txt`](./LICENSES/OQL-v1.3.txt)
+See: [`LICENSES/OQL-1.4.txt`](./LICENSES/OQL-v1.4.txt)
 
 ---
 

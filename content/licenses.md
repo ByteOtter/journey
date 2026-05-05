@@ -27,7 +27,7 @@ permission of the original author.
 # The Code
 
 Any code I wrote for this website. In the form of custom shortcodes, CSS layouts, etc. I licensed under the
-[Opinionated Queer License v1.3](https://oql.avris.it/license?c=Tiara%20Hock%7Cmailto%3Atiara.dev%40proton.me).
+[Opinionated Queer License v1.4](https://oql.avris.it/license?c=Tiara%20Hock%7Cmailto%3Atiara.dev%40proton.me).
 
 This applies to all code snippets I share in my posts, as well as any code
 found in the `scripts/`, `layouts/shortcodes/`, and `layouts/` directories.
